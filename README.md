@@ -31,7 +31,7 @@ Masuk ke folder server, lalu:
 👉 Double klik file:
 
 ```
-start server.bat
+server start.bat
 ```
 
 ---

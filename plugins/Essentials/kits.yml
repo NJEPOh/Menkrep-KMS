@@ -24,6 +24,16 @@ kits:
       - stoneshovel 1
       - stonepickaxe 1
       - stoneaxe 1
+      - iron_sword 1
+      - iron_pickaxe 1
+      - iron_axe 1
+      - iron_hoe 1
+      - iron_helmet 1
+      - iron_chestplate 1
+      - iron_leggings 1
+      - iron_boots 1
+      - cooked_beef 30
+      - red_bed 1
   dtools:
     delay: 600
     items:
