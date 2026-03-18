@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.106.82.47
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1773847164696
+  login: 1773844768296
+money: '0'
+last-account-name: Zukimura
+lastlocation:
+  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
+  world-name: world
+  x: -25.5
+  y: 67.0
+  z: -28.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
+  world-name: world
+  x: -263.30000001192093
+  y: 40.0
+  z: -369.6523989285544
+  yaw: 14.28510856628418
+  pitch: 65.88883209228516
