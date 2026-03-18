@@ -127,6 +127,7 @@ java -Xmx4G -Xms4G -XX:+UseG1GC -jar server.jar nogui
 ```
 
 * Jangan tutup paksa server (selalu pakai `stop`)
+* Selalu backup server dengan menjalankan file "(server backup.bat) setelah selesai stop
 * Kalau error, cek log di console
 
 ---
