@@ -59,11 +59,15 @@ stop
 
 Lalu tekan **Enter**
 
+## !!BACKUP WAJIB!!
+Jangan lupa jalankan "server backup.bat" untuk backup server
+
 👉 Server akan:
 
 * Save world
 * Save data player
 * Shutdown dengan aman
+* Backup server ke github
 
 ---
 
