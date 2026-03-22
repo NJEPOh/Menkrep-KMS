@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.9.152.175
+ip-address: 127.81.62.32
 afk: false
 socialspy: false
 npc: false
@@ -16,23 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1774020933800
-  login: 1774017926811
+  logout: 1774173107580
+  login: 1774166322876
 money: '0'
 last-account-name: Zukimura
-lastlocation:
-  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
-  world-name: world
-  x: -25.5
-  y: 67.0
-  z: -28.5
-  yaw: 0.0
-  pitch: 0.0
 logoutlocation:
   world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
   world-name: world
-  x: 87.57542449936626
-  y: 120.0
-  z: 674.688543882168
-  yaw: -31.964324951171875
-  pitch: 27.51511001586914
+  x: -165.15731479964674
+  y: 80.0
+  z: -293.2802862943462
+  yaw: -159.2041015625
+  pitch: 22.48870086669922

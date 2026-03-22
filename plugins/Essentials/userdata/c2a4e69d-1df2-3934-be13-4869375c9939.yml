@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.109.76.245
+ip-address: 127.3.161.195
 afk: false
 socialspy: false
 npc: false
@@ -16,23 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1774110890149
-  login: 1774109328759
+  logout: 1774176546577
+  login: 1774175444482
 money: '0'
 last-account-name: Arrel
-lastlocation:
-  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
-  world-name: world
-  x: -23.5
-  y: 67.0
-  z: -35.5
-  yaw: 0.0
-  pitch: 0.0
 logoutlocation:
   world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
   world-name: world
-  x: -160.23437970991648
-  y: 80.0
-  z: -298.590616244953
-  yaw: -102.29998779296875
-  pitch: 28.80000114440918
+  x: -177.05259712563378
+  y: 71.0
+  z: -300.5958330398545
+  yaw: 55.04974365234375
+  pitch: 29.70003318786621
