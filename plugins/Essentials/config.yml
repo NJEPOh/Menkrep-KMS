@@ -768,7 +768,7 @@ update-bed-at-daytime: true
 # Set to true to enable per-world permissions for using homes to teleport between worlds.
 # This applies to the /home command only.
 # Give someone permission to teleport to a world with 'essentials.worlds.<worldname>'.
-world-home-permissions: false
+world-home-permissions: true
 
 # Allow players to have multiple homes.
 # Players need 'essentials.sethome.multiple' before they can have more than 1 home.
@@ -1232,14 +1232,14 @@ respawn-listener-priority: high
 spawn-join-listener-priority: high
 
 # When players die, should they respawn at their first home or bed instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # When players die, should they respawn at their bed instead of their first home or the spawnpoint?
 # The 'respawn-at-home' setting above must also be true for this to take effect.
 respawn-at-home-bed: true
 
 # When players die, should Essentials respect their respawn anchors?
-respawn-at-anchor: false
+respawn-at-anchor: true
 
 # If configured, players will spawn at a random location instead of their spawnpoint.
 # This will override the newbies spawnpoint set above.
