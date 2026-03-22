@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1774179606744
-  login: 1774178970638
+  logout: 1774180202578
+  login: 1774180026681
 money: '0'
 last-account-name: NJEPOh77
 logoutlocation:
   world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
   world-name: world
-  x: -161.01392669056165
+  x: -160.06817144542302
   y: 80.0
-  z: -298.9591639742746
-  yaw: -79.35113525390625
-  pitch: 6.000001907348633
+  z: -298.4408649040258
+  yaw: 72.74978637695312
+  pitch: 14.699970245361328
 lastlocation:
   world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
   world-name: world
