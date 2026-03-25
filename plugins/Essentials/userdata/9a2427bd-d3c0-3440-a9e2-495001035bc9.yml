@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.102.109.157
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774417300028
+  login: 1774415294038
+money: '0'
+last-account-name: Formera
+lastlocation:
+  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
+  world-name: world
+  x: -40.5
+  y: 69.0
+  z: -36.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
+  world-name: world
+  x: -307.8774482589581
+  y: 72.0
+  z: -208.36330747932357
+  yaw: 46.806053161621094
+  pitch: 23.850187301635742

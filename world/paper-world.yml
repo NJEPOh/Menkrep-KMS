@@ -6,5 +6,4 @@
 # World: world (minecraft:overworld)
 
 _version: 31
-
 per-player-mob-spawns: true

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.103.131.137
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774445420936
+  login: 1774433611354
+money: '0'
+last-account-name: Arrel7
+lastlocation:
+  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
+  world-name: world
+  x: -32.5
+  y: 67.0
+  z: -40.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
+  world-name: world
+  x: 5083.487500011921
+  y: 64.0
+  z: 1103.3595312806633
+  yaw: 21.90234375
+  pitch: 25.500057220458984
