@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1774445420936
-  login: 1774433611354
+  logout: 1774448764147
+  login: 1774447109489
 money: '0'
 last-account-name: Arrel7
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
   world-name: world
-  x: 5083.487500011921
-  y: 64.0
-  z: 1103.3595312806633
-  yaw: 21.90234375
-  pitch: 25.500057220458984
+  x: 20146.486547247012
+  y: 69.0
+  z: 3109.092013990967
+  yaw: 98.854736328125
+  pitch: -0.6000582575798035
