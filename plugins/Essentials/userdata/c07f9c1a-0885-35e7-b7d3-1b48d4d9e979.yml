@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1774516934815
-  login: 1774504730968
+  logout: 1774526803323
+  login: 1774524598059
 money: '0'
 last-account-name: starkz
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
   world-name: world
-  x: -233.8304012573942
-  y: 72.0
-  z: -339.65642940219476
-  yaw: -98.40000915527344
-  pitch: 12.2999906539917
+  x: -169.60821366534026
+  y: 70.0
+  z: -327.8696663219717
+  yaw: -152.69915771484375
+  pitch: 0.4499549865722656
