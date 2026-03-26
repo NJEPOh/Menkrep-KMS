@@ -1,148 +1,433 @@
-[20:32:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.10+8-LTS-217; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[20:32:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
-[20:32:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:32:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[20:32:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[08:03:50] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.10+8-LTS-217; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[08:03:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
+[08:03:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[08:03:51] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[08:03:51] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Essentials (2.21.2), EssentialsChat (2.21.2), EssentialsSpawn (2.21.2)
-[20:32:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:32:57] [ServerMain/INFO]: Loaded 1470 recipes
-[20:32:57] [ServerMain/INFO]: Loaded 1584 advancements
-[20:32:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:32:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 546.2ms
-[20:32:58] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[20:32:58] [Server thread/INFO]: Loading properties
-[20:32:58] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[20:32:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:32:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:32:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:33:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
-[20:33:00] [Server thread/INFO]: Default game type: SURVIVAL
-[20:33:00] [Server thread/INFO]: Generating keypair
-[20:33:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:33:00] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:33:00] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:33:00] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[20:33:00] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
-[20:33:00] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
-[20:33:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:33:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:33:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:33:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:33:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:33:01] [Server thread/INFO]: Preparing level "world"
-[20:33:02] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[20:33:02] [Server thread/INFO]: Preparing spawn area: 100%
-[20:33:02] [Server thread/INFO]: Prepared spawn area in 4 ms
-[20:33:02] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[20:33:02] [Server thread/INFO]: Prepared spawn area in 13 ms
-[20:33:02] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[20:33:02] [Server thread/INFO]: Prepared spawn area in 14 ms
-[20:33:02] [Server thread/INFO]: Done preparing level "world" (1.230s)
-[20:33:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[20:33:03] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[20:33:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:33:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[20:33:04] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[20:33:04] [Server thread/INFO]: [Essentials] Using locale en_ID
-[20:33:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:33:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:33:05] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[20:33:05] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
-[20:33:05] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[20:33:05] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
-[20:33:05] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[20:33:05] [Server thread/INFO]: [spark] Starting background profiler...
-[20:33:05] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[20:33:05] [Server thread/INFO]: Running delayed init tasks
-[20:33:05] [Server thread/INFO]: Done (24.199s)! For help, type "help"
-[20:33:05] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[20:33:58] [User Authenticator #0/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
-[20:33:58] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials]
-[20:34:02] [Server thread/INFO]: NJEPOh77 joined the game
-[20:34:02] [Server thread/INFO]: NJEPOh77[/127.233.184.224:59419] logged in with entity id 1 at ([world]-243.30740470267833, 76.0, -375.61112062320336)
-[20:34:08] [User Authenticator #0/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[20:34:10] [Server thread/INFO]: Arrel7 joined the game
-[20:34:10] [Server thread/INFO]: Arrel7[/127.103.131.137:59421] logged in with entity id 324 at ([world]5083.487500011921, 64.0, 1103.3595312806633)
-[20:34:22] [User Authenticator #0/INFO]: UUID of player N4UF4L25 is 01f04f5d-c38b-389e-a0e1-15c4ba03f001
-[20:34:23] [Server thread/INFO]: N4UF4L25 joined the game
-[20:34:23] [Server thread/INFO]: N4UF4L25[/127.250.105.142:59427] logged in with entity id 595 at ([world]7299.234599237827, 134.0, 923.4976628820027)
-[20:54:36] [Server thread/INFO]: Arrel7 lost connection: Disconnected
-[20:54:36] [Server thread/INFO]: Arrel7 left the game
-[20:58:26] [User Authenticator #1/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[20:58:29] [Server thread/INFO]: Arrel7 joined the game
-[20:58:29] [Server thread/INFO]: Arrel7[/127.103.131.137:54364] logged in with entity id 10937 at ([world_nether]785.0852839458979, 128.0, 117.3605335922227)
-[21:17:19] [Server thread/INFO]: Arrel7 has completed the challenge [Subspace Bubble]
-[21:19:34] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[21:21:14] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
-[21:22:02] [Netty NIO IO #1/INFO]: Disconnecting N4UF4L25 for sending keepalive response (61558613) out-of-order!
-[21:22:02] [Server thread/INFO]: N4UF4L25 lost connection: Timed out
-[21:22:02] [Server thread/INFO]: N4UF4L25 left the game
-[21:22:31] [User Authenticator #2/INFO]: UUID of player N4UF4L25 is 01f04f5d-c38b-389e-a0e1-15c4ba03f001
-[21:22:32] [Server thread/INFO]: N4UF4L25 joined the game
-[21:22:32] [Server thread/INFO]: N4UF4L25[/127.250.105.142:65189] logged in with entity id 22946 at ([world]7294.921428052534, 133.0, 925.9283542074315)
-[21:26:04] [Server thread/INFO]: Arrel7 lost connection: Disconnected
-[21:26:04] [Server thread/INFO]: Arrel7 left the game
-[21:32:27] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[21:38:44] [Server thread/INFO]: N4UF4L25 lost connection: Disconnected
-[21:38:44] [Server thread/INFO]: N4UF4L25 left the game
-[21:42:49] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
-[21:42:50] [Server thread/INFO]: NJEPOh77 left the game
-[21:44:31] [Server thread/INFO]: Stopping the server
-[21:44:31] [Server thread/INFO]: Stopping server
-[21:44:31] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
-[21:44:31] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
-[21:44:31] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[21:44:31] [Server thread/INFO]: Saving players
-[21:44:31] [Server thread/INFO]: Saving worlds
-[21:44:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[21:44:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[21:44:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[21:44:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[21:44:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:44:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:44:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:44:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:44:31] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[21:44:31] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[21:44:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[21:44:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[08:03:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:03:58] [ServerMain/INFO]: Loaded 1470 recipes
+[08:03:58] [ServerMain/INFO]: Loaded 1584 advancements
+[08:03:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[08:03:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 318.9ms
+[08:03:58] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[08:03:58] [Server thread/INFO]: Loading properties
+[08:03:58] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[08:03:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[08:03:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:03:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:03:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
+[08:03:59] [Server thread/INFO]: Default game type: SURVIVAL
+[08:03:59] [Server thread/INFO]: Generating keypair
+[08:03:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:04:00] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[08:04:00] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[08:04:00] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[08:04:00] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
+[08:04:00] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[08:04:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:04:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:04:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:04:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:04:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:04:00] [Server thread/INFO]: Preparing level "world"
+[08:04:01] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[08:04:01] [Server thread/INFO]: Preparing spawn area: 100%
+[08:04:01] [Server thread/INFO]: Prepared spawn area in 3 ms
+[08:04:01] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[08:04:01] [Server thread/INFO]: Prepared spawn area in 1 ms
+[08:04:01] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[08:04:01] [Server thread/INFO]: Prepared spawn area in 1 ms
+[08:04:01] [Server thread/INFO]: Done preparing level "world" (0.796s)
+[08:04:01] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[08:04:02] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[08:04:02] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[08:04:02] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[08:04:02] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[08:04:02] [Server thread/INFO]: [Essentials] Using locale en_ID
+[08:04:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[08:04:02] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[08:04:02] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[08:04:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
+[08:04:02] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[08:04:02] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[08:04:02] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[08:04:03] [Server thread/INFO]: [spark] Starting background profiler...
+[08:04:03] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[08:04:03] [Server thread/INFO]: Running delayed init tasks
+[08:04:03] [Server thread/INFO]: Done (13.359s)! For help, type "help"
+[08:04:03] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[08:05:59] [User Authenticator #0/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[08:05:59] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials]
+[08:06:03] [Server thread/INFO]: NJEPOh77 joined the game
+[08:06:03] [Server thread/INFO]: NJEPOh77[/127.233.184.224:65475] logged in with entity id 1 at ([world]-216.31273759535068, 86.51923820268513, -371.6077146755181)
+[08:10:27] [Server thread/INFO]: Villager Villager['Villager'/106, uuid='87215234-fc40-4e52-8a37-719e4c89ac2c', l='ServerLevel[world]', x=-278.70, y=62.50, z=-390.30, cpos=[-18, -25], tl=5217, v=true] died, message: 'Villager was slain by Drowned'
+[08:11:28] [User Authenticator #1/INFO]: UUID of player Zukimura is a8435c18-cb1e-3cdc-8fdb-4ffa0d5ba07f
+[08:11:32] [Server thread/INFO]: Zukimura joined the game
+[08:11:32] [Server thread/INFO]: Zukimura[/127.167.92.137:51236] logged in with entity id 1018 at ([world]-232.48585621092738, 76.0, -352.24918086877705)
+[08:11:55] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
+[08:18:12] [Async Chat Thread - #0/INFO]: [Not Secure] <NJEPOh77> bangke ga sadar ada creeper
+[08:21:26] [Server thread/INFO]: Zukimura was slain by Zombie
+[08:30:44] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[08:30:44] [Server thread/INFO]: NJEPOh77 left the game
+[08:31:40] [User Authenticator #2/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[08:31:41] [Server thread/INFO]: NJEPOh77 joined the game
+[08:31:41] [Server thread/INFO]: NJEPOh77[/127.233.184.224:59519] logged in with entity id 5084 at ([world]-231.15082886220827, 88.0, -372.4282407032834)
+[08:31:57] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[08:31:57] [Server thread/INFO]: NJEPOh77 left the game
+[08:32:31] [User Authenticator #2/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[08:32:31] [Server thread/INFO]: NJEPOh77 joined the game
+[08:32:31] [Server thread/INFO]: NJEPOh77[/127.233.184.224:59530] logged in with entity id 5236 at ([world]-231.15082886220827, 88.0, -372.4282407032834)
+[08:35:09] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[08:36:53] [User Authenticator #3/INFO]: UUID of player starkz is c07f9c1a-0885-35e7-b7d3-1b48d4d9e979
+[08:36:55] [Server thread/INFO]: starkz joined the game
+[08:36:55] [Server thread/INFO]: starkz[/127.2.59.51:63352] logged in with entity id 5941 at ([world]-26.5, 69.0, -22.5)
+[08:36:55] [Server thread/INFO]: starkz has made the advancement [Getting an Upgrade]
+[08:38:14] [Server thread/INFO]: Zukimura lost connection: Timed out
+[08:38:14] [Server thread/INFO]: Zukimura left the game
+[08:38:29] [User Authenticator #4/INFO]: UUID of player Zukimura is a8435c18-cb1e-3cdc-8fdb-4ffa0d5ba07f
+[08:38:30] [Server thread/INFO]: Zukimura joined the game
+[08:38:30] [Server thread/INFO]: Zukimura[/127.8.88.229:63356] logged in with entity id 6234 at ([world]-244.2705638964025, 76.0, -370.44158805770553)
+[08:39:46] [Server thread/INFO]: starkz lost connection: Disconnected
+[08:39:46] [Server thread/INFO]: starkz left the game
+[08:39:51] [Async Chat Thread - #2/INFO]: [Not Secure] <NJEPOh77> akowkowkookw
+[08:40:46] [User Authenticator #5/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
+[08:40:48] [Server thread/INFO]: Arrel7 joined the game
+[08:40:48] [Server thread/INFO]: Arrel7[/127.56.142.74:56853] logged in with entity id 6575 at ([world]20146.486547247012, 69.0, 3109.092013990967)
+[08:57:00] [Server thread/INFO]: Arrel7 lost connection: Disconnected
+[08:57:00] [Server thread/INFO]: Arrel7 left the game
+[08:57:10] [User Authenticator #6/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
+[08:57:11] [Server thread/INFO]: Arrel7 joined the game
+[08:57:11] [Server thread/INFO]: Arrel7[/127.56.142.74:56049] logged in with entity id 14485 at ([world]5076.030661895138, 62.9375, 1097.6357644103998)
+[08:57:17] [Server thread/INFO]: Arrel7 lost connection: Disconnected
+[08:57:17] [Server thread/INFO]: Arrel7 left the game
+[08:57:57] [User Authenticator #6/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
+[08:57:58] [Server thread/INFO]: Arrel7 joined the game
+[08:57:58] [Server thread/INFO]: Arrel7[/127.56.142.74:56052] logged in with entity id 14893 at ([world]5076.030661895138, 62.9375, 1097.6357644103998)
+[09:14:38] [Server thread/INFO]: Zukimura fell from a high place
+[09:15:17] [Async Chat Thread - #4/INFO]: [Not Secure] <Zukimura> bang minta torch
+[09:16:52] [Server thread/INFO]: Zukimura fell from a high place
+[09:23:30] [Server thread/INFO]: Arrel7 fell from a high place
+[09:23:35] [Async Chat Thread - #6/INFO]: [Not Secure] <Zukimura> :v
+[09:23:39] [Async Chat Thread - #6/INFO]: [Not Secure] <NJEPOh77> aokokwkw
+[09:23:49] [Async Chat Thread - #7/INFO]: [Not Secure] <Arrel7> badjingan levelku njir
+[09:24:03] [Async Chat Thread - #7/INFO]: [Not Secure] <Arrel7> sialan
+[09:24:15] [Async Chat Thread - #7/INFO]: [Not Secure] <Zukimura> mulai dari nol ya mas
+[09:26:28] [Server thread/WARN]: Happy Ghast (vehicle of Arrel7) moved wrongly! 0.2534955761515893
+[09:26:40] [Async Chat Thread - #8/INFO]: [Not Secure] <Arrel7> kau nak afk?
+[09:27:25] [Server thread/INFO]: Zukimura fell from a high place
+[09:27:37] [Async Chat Thread - #8/INFO]: [Not Secure] <NJEPOh77> kalian di farm atas kah wkwk ?
+[09:28:48] [Server thread/INFO]: Arrel7 has made the advancement [Take Aim]
+[09:28:50] [Server thread/INFO]: Zukimura was burned to a crisp while fighting Arrel7
+[09:28:58] [Async Chat Thread - #10/INFO]: [Not Secure] <NJEPOh77> kejam akowokwokw
+[09:29:00] [Async Chat Thread - #10/INFO]: [Not Secure] <Zukimura> udah work
+[09:30:23] [Async Chat Thread - #12/INFO]: [Not Secure] <NJEPOh77> anjay thx
+[09:50:56] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
+[09:55:40] [Server thread/INFO]: NJEPOh77 has reached the goal [Zombie Doctor]
+[10:01:09] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[10:21:22] [User Authenticator #7/INFO]: UUID of player N4UF4L25 is 01f04f5d-c38b-389e-a0e1-15c4ba03f001
+[10:21:23] [Server thread/INFO]: N4UF4L25 joined the game
+[10:21:23] [Server thread/INFO]: N4UF4L25[/127.163.49.115:53665] logged in with entity id 39941 at ([world]7303.835119387139, 145.0, 927.8112157894426)
+[10:24:36] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
+[10:24:38] [Async Chat Thread - #14/INFO]: [Not Secure] <Arrel7> Juki Discord juk
+[10:24:49] [Async Chat Thread - #14/INFO]: [Not Secure] <Arrel7> mau raid lagi iini
+[10:25:09] [User Authenticator #8/INFO]: UUID of player Zukimura is a8435c18-cb1e-3cdc-8fdb-4ffa0d5ba07f
+[10:25:09] [Server thread/INFO]: Zukimura lost connection: You logged in from another location
+[10:25:09] [Server thread/INFO]: Zukimura left the game
+[10:25:10] [Server thread/INFO]: Zukimura joined the game
+[10:25:10] [Server thread/INFO]: Zukimura[/127.64.110.96:53678] logged in with entity id 41968 at ([world]-386.63116939306474, 101.0, -251.30000001192093)
+[10:29:12] [Async Chat Thread - #16/INFO]: [Not Secure] <Arrel7> Juk
+[10:29:46] [Async Chat Thread - #16/INFO]: [Not Secure] <Zukimura> nanti aku mau ke luar dulu
+[10:30:25] [Server thread/INFO]: Zukimura lost connection: Disconnected
+[10:30:25] [Server thread/INFO]: Zukimura left the game
+[10:32:10] [Server thread/WARN]: N4UF4L25 moved too quickly! 0.0,-10.057684533120238,-0.3330744127620733
+[10:39:17] [User Authenticator #9/INFO]: UUID of player starkz is c07f9c1a-0885-35e7-b7d3-1b48d4d9e979
+[10:39:18] [Server thread/INFO]: starkz joined the game
+[10:39:18] [Server thread/INFO]: starkz[/127.2.59.51:61374] logged in with entity id 49162 at ([world]-211.93412998323015, 89.0, -384.16567581016915)
+[10:40:26] [Server thread/INFO]: starkz has made the advancement [Diamonds!]
+[10:43:43] [Server thread/INFO]: starkz has made the advancement [Stone Age]
+[10:46:26] [Server thread/INFO]: starkz has made the advancement [We Need to Go Deeper]
+[10:54:07] [Server thread/INFO]: NJEPOh77 has completed the challenge [Subspace Bubble]
+[10:56:15] [Server thread/INFO]: starkz was slain by NJEPOh77
+[10:56:59] [Server thread/INFO]: starkz has made the advancement [Cover Me with Diamonds]
+[11:00:28] [Server thread/INFO]: starkz has made the advancement [Monster Hunter]
+[11:02:04] [Server thread/INFO]: starkz drowned
+[11:02:11] [Server thread/INFO]: starkz has completed the challenge [Hero of the Village]
+[11:08:37] [Server thread/INFO]: starkz has made the advancement [Sweet Dreams]
+[11:16:29] [Server thread/INFO]: NJEPOh77 has made the advancement [What a Deal!]
+[11:18:18] [Server thread/INFO]: starkz fell off a ladder
+[11:24:32] [Server thread/INFO]: N4UF4L25 has made the advancement [The Parrots and the Bats]
+[11:29:39] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[11:29:39] [Server thread/INFO]: NJEPOh77 left the game
+[11:32:12] [Server thread/INFO]: starkz fell from a high place
+[11:35:04] [Server thread/INFO]: starkz was kicked due to keepalive timeout!
+[11:35:04] [Server thread/INFO]: starkz lost connection: Timed out
+[11:35:04] [Server thread/INFO]: starkz left the game
+[11:35:05] [Server thread/INFO]: Arrel7 was kicked due to keepalive timeout!
+[11:35:05] [Server thread/INFO]: Arrel7 lost connection: Timed out
+[11:35:05] [Server thread/INFO]: Arrel7 left the game
+[11:35:05] [Server thread/INFO]: N4UF4L25 was kicked due to keepalive timeout!
+[11:35:05] [Server thread/INFO]: N4UF4L25 lost connection: Timed out
+[11:35:05] [Server thread/INFO]: N4UF4L25 left the game
+[12:58:49] [User Authenticator #10/INFO]: UUID of player starkz is c07f9c1a-0885-35e7-b7d3-1b48d4d9e979
+[12:58:50] [Server thread/INFO]: starkz joined the game
+[12:58:50] [Server thread/INFO]: starkz[/127.2.59.51:64083] logged in with entity id 71313 at ([world]-87.30773208750037, 217.0, -355.61620805893403)
+[13:02:37] [User Authenticator #11/INFO]: UUID of player N4UF4L25 is 01f04f5d-c38b-389e-a0e1-15c4ba03f001
+[13:02:38] [Server thread/INFO]: N4UF4L25 joined the game
+[13:02:38] [Server thread/INFO]: N4UF4L25[/127.163.49.115:52115] logged in with entity id 71675 at ([world]7303.300000011921, 146.0, 927.628295825315)
+[13:04:51] [User Authenticator #12/INFO]: UUID of player Zukimura is a8435c18-cb1e-3cdc-8fdb-4ffa0d5ba07f
+[13:04:56] [Server thread/INFO]: Zukimura joined the game
+[13:04:56] [Server thread/INFO]: Zukimura[/127.191.144.120:52120] logged in with entity id 72307 at ([world_nether]-28.022958139715314, 128.5, -54.67700277183707)
+[13:27:00] [Server thread/INFO]: Villager Villager['Villager'/71404, uuid='d6e23e08-4fe0-4e82-9505-abeb1e827839', l='ServerLevel[world]', x=-230.50, y=76.00, z=-381.30, cpos=[-15, -24], tl=33710, v=true] died, message: 'Villager was slain by Zukimura'
+[13:28:08] [Server thread/WARN]: Zukimura moved too quickly! 7.941401122200858,-0.7539862017387549,6.1600524990502095
+[13:29:11] [User Authenticator #13/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
+[13:29:13] [Server thread/INFO]: Arrel7 joined the game
+[13:29:13] [Server thread/INFO]: Arrel7[/127.56.142.74:49680] logged in with entity id 84284 at ([world]-164.5548284398752, 197.3764001405234, -393.51249998807907)
+[13:44:04] [Server thread/INFO]: N4UF4L25 lost connection: Disconnected
+[13:44:04] [Server thread/INFO]: N4UF4L25 left the game
+[13:45:28] [User Authenticator #14/INFO]: UUID of player N4UF4L25 is 01f04f5d-c38b-389e-a0e1-15c4ba03f001
+[13:45:29] [Server thread/INFO]: N4UF4L25 joined the game
+[13:45:29] [Server thread/INFO]: N4UF4L25[/127.163.49.115:62228] logged in with entity id 88640 at ([world]-254.2969562872194, -17.5, -311.463012768442)
+[13:48:47] [User Authenticator #15/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[13:48:48] [Server thread/INFO]: NJEPOh77 joined the game
+[13:48:48] [Server thread/INFO]: NJEPOh77[/127.233.184.224:52616] logged in with entity id 89343 at ([world]-170.17998669192704, 71.0, -308.2375111449855)
+[13:51:06] [Server thread/INFO]: starkz was shot by Skeleton
+[13:55:24] [Server thread/INFO]: starkz has made the advancement [Acquire Hardware]
+[13:59:49] [Server thread/INFO]: starkz fell from a high place
+[14:01:06] [User Authenticator #16/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
+[14:01:07] [Server thread/INFO]: Formera joined the game
+[14:01:07] [Server thread/INFO]: Formera[/127.144.169.203:63964] logged in with entity id 93106 at ([world]-307.8774482589581, 72.0, -208.36330747932357)
+[14:01:14] [Async Chat Thread - #18/INFO]: [Not Secure] <NJEPOh77> dc mint
+[14:01:46] [Async Chat Thread - #18/INFO]: [Not Secure] <N4UF4L25> wava bentar
+[14:02:12] [Async Chat Thread - #18/INFO]: [Not Secure] <starkz> wut is this
+[14:02:16] [Async Chat Thread - #18/INFO]: [Not Secure] <N4UF4L25> trial
+[14:02:24] [Async Chat Thread - #18/INFO]: [Not Secure] <N4UF4L25> buat ambil hadiah
+[14:08:22] [Async Chat Thread - #21/INFO]: [Not Secure] <Formera> izin min
+[14:08:23] [Async Chat Thread - #21/INFO]: [Not Secure] <Arrel7> ngapain
+[14:08:25] [Async Chat Thread - #20/INFO]: [Not Secure] <Formera> ngelag
+[14:09:01] [Server thread/INFO]: Formera issued server command: /home
+[14:09:01] [Server thread/INFO]: [Essentials] Formera was denied access to command.
+[14:09:09] [Async Chat Thread - #20/INFO]: [Not Secure] <Arrel7> kok kau teleport njir
+[14:09:19] [Async Chat Thread - #20/INFO]: [Not Secure] <Formera> cit latensi
+[14:09:30] [Async Chat Thread - #20/INFO]: [Not Secure] <NJEPOh77> dewa jaringan
+[14:10:06] [Server thread/INFO]: Arrel7 has made the advancement [Stay Hydrated!]
+[14:10:18] [Async Chat Thread - #20/INFO]: [Not Secure] <Formera> lah anjir
+[14:10:26] [Async Chat Thread - #20/INFO]: [Not Secure] <Formera> ini deket peta siapa yang bongkar
+[14:10:32] [Async Chat Thread - #21/INFO]: [Not Secure] <Formera> chestku di situ weeee
+[14:10:48] [Async Chat Thread - #21/INFO]: [Not Secure] <Arrel7> diancurin admin awokaowk
+[14:10:52] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[14:11:11] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
+[14:11:20] [Async Chat Thread - #21/INFO]: [Not Secure] <Formera> alah min min
+[14:11:32] [Server thread/INFO]: Villager Villager['Villager'/72349, uuid='c968106a-0076-4456-bc2a-fe7c6dd82141', l='ServerLevel[world]', x=-230.44, y=76.00, z=-382.70, cpos=[-15, -24], tl=70474, v=true] died, message: 'Villager was slain by Zukimura'
+[14:11:36] [Async Chat Thread - #21/INFO]: [Not Secure] <NJEPOh77> woi kata siapa
+[14:11:48] [Async Chat Thread - #21/INFO]: [Not Secure] <Arrel7> kau ancurin pakai bom njir
+[14:11:53] [Async Chat Thread - #20/INFO]: [Not Secure] <NJEPOh77> oiya
+[14:11:55] [Async Chat Thread - #20/INFO]: [Not Secure] <NJEPOh77> hehe
+[14:11:59] [Async Chat Thread - #20/INFO]: [Not Secure] <NJEPOh77> isine apa to
+[14:12:10] [Async Chat Thread - #20/INFO]: [Not Secure] <Formera> loot jelek sih
+[14:12:12] [Async Chat Thread - #20/INFO]: [Not Secure] <Formera> gpp
+[14:12:20] [Async Chat Thread - #20/INFO]: [Not Secure] <Formera> btw armor di chest rumah tak ambil ya
+[14:12:25] [Async Chat Thread - #20/INFO]: [Not Secure] <NJEPOh77> boleh
+[14:14:44] [Server thread/INFO]: starkz fell from a high place
+[14:15:06] [Server thread/INFO]: Formera has made the advancement [Isn't It Iron Pick]
+[14:20:20] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[14:20:28] [Server thread/INFO]: starkz fell from a high place
+[14:20:57] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
+[14:21:45] [Server thread/INFO]: N4UF4L25 fell from a high place
+[14:23:23] [Server thread/INFO]: Villager Villager['Villager'/71399, uuid='d6da2ff5-5470-4107-b3b2-54db28cf2771', l='ServerLevel[world]', x=-239.63, y=76.00, z=-383.70, cpos=[-15, -24], tl=101378, v=true] died, message: 'Villager was slain by Zukimura'
+[14:24:20] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[14:24:52] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
+[14:25:23] [User Authenticator #17/INFO]: UUID of player Zukimura is a8435c18-cb1e-3cdc-8fdb-4ffa0d5ba07f
+[14:25:23] [Server thread/INFO]: Zukimura lost connection: You logged in from another location
+[14:25:23] [Server thread/INFO]: Zukimura left the game
+[14:25:25] [Server thread/INFO]: Zukimura joined the game
+[14:25:25] [Server thread/INFO]: Zukimura[/127.250.231.187:56951] logged in with entity id 105442 at ([world]-231.43776290976598, 76.0, -378.7762068166929)
+[14:27:06] [Server thread/INFO]: Villager Villager['Armorer'/72350, uuid='483e3026-ec3d-4009-92ed-da1d3f106ab0', l='ServerLevel[world]', x=-334.62, y=82.92, z=-350.35, cpos=[-21, -22], tl=89144, v=true] died, message: 'Armorer was slain by Zukimura'
+[14:32:45] [Server thread/INFO]: Villager Villager['Villager'/72351, uuid='cde2fdcc-bbcb-4ce3-a583-f8f818f44ba6', l='ServerLevel[world]', x=-236.83, y=76.00, z=-360.96, cpos=[-15, -23], tl=95935, v=true] died, message: 'Villager was slain by Zukimura'
+[14:36:42] [Async Chat Thread - #23/INFO]: [Not Secure] <Formera> min gaada mbg kah servernya?
+[14:36:54] [Async Chat Thread - #23/INFO]: [Not Secure] <NJEPOh77> nanti servernya keracunan
+[14:37:19] [Async Chat Thread - #23/INFO]: [Not Secure] <Formera> manuk akal
+[14:37:50] [Async Chat Thread - #23/INFO]: [Not Secure] <Formera> butuh donasi cobblestone
+[14:37:54] [Async Chat Thread - #23/INFO]: [Not Secure] <NJEPOh77> di base
+[14:39:39] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[14:40:31] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode s
+[14:42:08] [Server thread/INFO]: starkz fell from a high place
+[14:42:11] [Async Chat Thread - #24/INFO]: [Not Secure] <NJEPOh77> aokwokkowokwokwokw
+[14:42:17] [Async Chat Thread - #24/INFO]: [Not Secure] <Formera> wava hobi banget jatoh
+[14:42:27] [Async Chat Thread - #24/INFO]: [Not Secure] <NJEPOh77> kasih counter wava jatoh dong aokwowkokwowokw
+[14:50:38] [Server thread/INFO]: starkz fell from a high place
+[14:51:09] [Server thread/INFO]: N4UF4L25 lost connection: Disconnected
+[14:51:09] [Server thread/INFO]: N4UF4L25 left the game
+[15:01:59] [Server thread/WARN]: Formera moved too quickly! -5.98659621724687,-7.0,11.919035392963394
+[15:04:06] [Server thread/INFO]: Arrel7 fell from a high place
+[15:07:02] [Async Chat Thread - #26/INFO]: [Not Secure] <Formera> eh yang punya silk touch minta tolong dong
+[15:07:05] [Async Chat Thread - #26/INFO]: [Not Secure] <Formera> kalau mau
+[15:07:13] [Async Chat Thread - #26/INFO]: [Not Secure] <Arrel7> kau dimana
+[15:07:24] [Async Chat Thread - #26/INFO]: [Not Secure] <NJEPOh77> di base ada nek ga salah
+[15:07:34] [Async Chat Thread - #26/INFO]: [Not Secure] <Formera> butuh miningnya
+[15:07:40] [Async Chat Thread - #26/INFO]: [Not Secure] <Formera> di -255 -156
+[15:07:49] [Async Chat Thread - #27/INFO]: [Not Secure] <NJEPOh77> njir
+[15:09:11] [Async Chat Thread - #28/INFO]: [Not Secure] <Arrel7> otw
+[15:10:05] [Async Chat Thread - #29/INFO]: [Not Secure] <Formera> ambilin kacanya min
+[15:10:08] [Async Chat Thread - #29/INFO]: [Not Secure] <Formera> yang di tengah
+[15:10:13] [Async Chat Thread - #29/INFO]: [Not Secure] <Formera> 3
+[15:10:20] [Server thread/INFO]: Zukimura fell off a ladder
+[15:10:55] [Async Chat Thread - #29/INFO]: [Not Secure] <Arrel7> semuanya?
+[15:10:58] [Async Chat Thread - #29/INFO]: [Not Secure] <Formera> sebelahnya
+[15:11:01] [Async Chat Thread - #28/INFO]: [Not Secure] <Formera> kanan kiri
+[15:11:26] [Async Chat Thread - #28/INFO]: [Not Secure] <Formera> makasih mint
+[15:11:29] [Async Chat Thread - #28/INFO]: [Not Secure] <Formera> baik banget
+[15:14:39] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[15:14:39] [Server thread/INFO]: NJEPOh77 left the game
+[15:15:43] [Server thread/INFO]: Zukimura fell from a high place
+[15:20:20] [Async Chat Thread - #30/INFO]: [Not Secure] <Formera> noooo
+[15:22:44] [Server thread/INFO]: Arrel7 fell from a high place
+[15:25:39] [Server thread/INFO]: starkz fell from a high place
+[15:26:05] [Server thread/INFO]: Zukimura was doomed to fall by Arrel7
+[15:29:44] [Server thread/INFO]: starkz was doomed to fall
+[15:31:57] [Server thread/INFO]: Arrel7 fell from a high place
+[15:35:02] [Server thread/INFO]: starkz was slain by Zukimura using [Libera]
+[15:36:04] [Server thread/INFO]: Zukimura fell from a high place
+[15:36:57] [Server thread/INFO]: Named entity Wolf['BOMBER'/72640, uuid='d6b8d195-c493-442c-b12b-efad20968500', l='ServerLevel[world]', x=-189.49, y=217.00, z=-331.50, cpos=[-12, -21], tl=174324, v=true] died: BOMBER fell from a high place
+[15:39:13] [Server thread/INFO]: Zukimura fell from a high place
+[15:40:29] [User Authenticator #18/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[15:40:30] [Server thread/INFO]: NJEPOh77 joined the game
+[15:40:30] [Server thread/INFO]: NJEPOh77[/127.233.184.224:59895] logged in with entity id 136694 at ([world]-67.67641208485657, 79.0, -258.98578094701236)
+[15:40:46] [Server thread/WARN]: Formera moved wrongly!
+[15:42:04] [Async Chat Thread - #32/INFO]: [Not Secure] <NJEPOh77> Cuy
+[15:42:15] [Async Chat Thread - #32/INFO]: [Not Secure] <Formera> akhirnya punya rumah anti digusur hafidz
+[15:42:21] [Async Chat Thread - #32/INFO]: [Not Secure] <NJEPOh77> Aoowkkwokwowkkow
+[15:42:36] [Async Chat Thread - #32/INFO]: [Not Secure] <NJEPOh77> Share koordinat, aku mau silaturahmi
+[15:42:50] [Async Chat Thread - #32/INFO]: [Not Secure] <Formera> -256 -161
+[15:42:54] [Async Chat Thread - #33/INFO]: [Not Secure] <Formera> deket base
+[15:42:58] [Async Chat Thread - #33/INFO]: [Not Secure] <NJEPOh77> Nanti server tak matiin jam 4 lebih sepuluh ya
+[15:44:49] [Async Chat Thread - #34/INFO]: [Not Secure] <Formera> ngapain
+[15:44:54] [Async Chat Thread - #34/INFO]: [Not Secure] <Arrel7> raid
+[15:45:04] [Async Chat Thread - #35/INFO]: [Not Secure] <Formera> lah kok diparani satu klan
+[15:45:08] [Async Chat Thread - #35/INFO]: [Not Secure] <Arrel7> kasurnya ping
+[15:45:12] [Async Chat Thread - #35/INFO]: [Not Secure] <Arrel7> pink
+[15:45:16] [Async Chat Thread - #35/INFO]: [Not Secure] <NJEPOh77> ga kelihatan
+[15:45:24] [Async Chat Thread - #34/INFO]: [Not Secure] <NJEPOh77> mergo shader hehe
+[15:45:46] [Async Chat Thread - #34/INFO]: [Not Secure] <Arrel7> kau pake sponge?
+[15:45:49] [Async Chat Thread - #34/INFO]: [Not Secure] <Formera> ga
+[15:45:54] [Async Chat Thread - #34/INFO]: [Not Secure] <Arrel7> njir ngeri
+[15:45:56] [Async Chat Thread - #34/INFO]: [Not Secure] <Formera> dari mana sponge jir
+[15:46:05] [Async Chat Thread - #34/INFO]: [Not Secure] <Formera> ocean aja gatau di mana
+[15:46:35] [Async Chat Thread - #34/INFO]: [Not Secure] <Arrel7> iron tinggal ambil difarm njir
+[15:47:00] [Async Chat Thread - #34/INFO]: [Not Secure] <Formera> warnanya jelek
+[15:47:04] [Async Chat Thread - #35/INFO]: [Not Secure] <Formera> bagus copper
+[15:47:06] [Async Chat Thread - #35/INFO]: [Not Secure] <NJEPOh77> sengaja banget ya
+[15:47:08] [Server thread/INFO]: Formera has made the advancement [Sweet Dreams]
+[15:47:36] [Async Chat Thread - #35/INFO]: [Not Secure] <Arrel7> njir
+[15:47:40] [Async Chat Thread - #35/INFO]: [Not Secure] <Arrel7> parah
+[15:47:46] [Server thread/INFO]: starkz was slain by Formera
+[15:48:09] [Async Chat Thread - #35/INFO]: [Not Secure] <Formera> azab merusak rumah orang
+[15:48:44] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[15:49:09] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[15:49:23] [Async Chat Thread - #37/INFO]: [Not Secure] <NJEPOh77> atmin aku ada hadiah untuk kamu
+[15:49:36] [Async Chat Thread - #37/INFO]: [Not Secure] <Formera> lah kok ga bisa dihit
+[15:49:41] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
+[15:51:40] [Async Chat Thread - #38/INFO]: [Not Secure] <Formera> warga di sini vandal semua
+[15:53:30] [Async Chat Thread - #40/INFO]: [Not Secure] <Formera> bakarin min
+[15:53:39] [Server thread/INFO]: Villager Villager['Villager'/72353, uuid='2a22d5de-da78-4af5-9d7d-fb6fd52d89f2', l='ServerLevel[world]', x=-353.70, y=85.42, z=-347.51, cpos=[-23, -22], tl=170073, v=true] died, message: 'Villager was slain by Zukimura using [Libera]'
+[15:54:54] [Server thread/INFO]: NJEPOh77 drowned
+[15:55:01] [Async Chat Thread - #42/INFO]: [Not Secure] <Formera> admin ngapain
+[15:55:09] [Server thread/INFO]: Villager Villager['Villager'/72354, uuid='853cfa76-a10e-4b7d-82c3-8491a641db68', l='ServerLevel[world]', x=-274.67, y=76.18, z=-388.21, cpos=[-18, -25], tl=171874, v=true] died, message: 'Villager was burned to a crisp while fighting Zukimura'
+[15:57:16] [Async Chat Thread - #44/INFO]: [Not Secure] <NJEPOh77> anjay
+[15:57:25] [Async Chat Thread - #45/INFO]: [Not Secure] <NJEPOh77> mencoba bernapas menggunakan air
+[15:58:37] [Async Chat Thread - #46/INFO]: [Not Secure] <Formera> jangan dimatiin min
+[15:58:56] [Async Chat Thread - #46/INFO]: [Not Secure] <NJEPOh77> Kalo gitu pinjam raspi mu buat server hehe
+[15:59:01] [Async Chat Thread - #47/INFO]: [Not Secure] <NJEPOh77> Nek ga minta laptop hehe
+[15:59:04] [Async Chat Thread - #47/INFO]: [Not Secure] <Formera> itu mah rakit bom
+[15:59:08] [Async Chat Thread - #47/INFO]: [Not Secure] <Formera> eh pinjem laptop gapapa sih
+[15:59:11] [Async Chat Thread - #46/INFO]: [Not Secure] <Formera> ada aku
+[15:59:19] [Async Chat Thread - #46/INFO]: [Not Secure] <NJEPOh77> anjay
+[15:59:44] [Async Chat Thread - #46/INFO]: [Not Secure] <NJEPOh77> Aku off dulu ya, nanti 4 lebih 15 lah tak matiin bentar
+[15:59:53] [Async Chat Thread - #46/INFO]: [Not Secure] <starkz> oke
+[15:59:53] [Async Chat Thread - #46/INFO]: [Not Secure] <NJEPOh77> On lagi abis maghrib
+[16:00:00] [Async Chat Thread - #46/INFO]: [Not Secure] <NJEPOh77> Insyaallah
+[16:00:01] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[16:00:01] [Server thread/INFO]: NJEPOh77 left the game
+[16:00:43] [Server thread/INFO]: Villager Villager['Villager'/72355, uuid='9a4187bd-bb1d-4f84-9cb7-53756f688a08', l='ServerLevel[world]', x=-239.50, y=76.00, z=-383.30, cpos=[-15, -24], tl=178552, v=true] died, message: 'Villager was slain by Zukimura using [Libera]'
+[16:01:04] [Server thread/INFO]: Zukimura lost connection: Disconnected
+[16:01:04] [Server thread/INFO]: Zukimura left the game
+[16:04:24] [Server thread/INFO]: Formera has made the advancement [Diamonds!]
+[16:04:52] [Server thread/INFO]: Formera issued server command: /home
+[16:04:52] [Server thread/INFO]: [Essentials] Formera was denied access to command.
+[16:04:53] [Server thread/INFO]: Formera issued server command: /home
+[16:04:53] [Server thread/INFO]: [Essentials] Formera was denied access to command.
+[16:14:45] [Server thread/INFO]: Arrel7 was doomed to fall by Zombie
+[16:16:42] [Server thread/INFO]: starkz fell from a high place
+[16:17:15] [Server thread/INFO]: Formera lost connection: Disconnected
+[16:17:15] [Server thread/INFO]: Formera left the game
+[16:21:49] [User Authenticator #19/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[16:21:50] [Server thread/INFO]: NJEPOh77 joined the game
+[16:21:50] [Server thread/INFO]: NJEPOh77[/127.233.184.224:54997] logged in with entity id 151091 at ([world]-68.85998063381543, 79.0, -257.73675106128684)
+[16:21:52] [Server thread/INFO]: starkz fell from a high place
+[16:22:00] [Async Chat Thread - #48/INFO]: [Not Secure] <NJEPOh77> AWOKOWKOKWKOWW
+[16:22:07] [Async Chat Thread - #48/INFO]: [Not Secure] <starkz> asem
+[16:22:07] [Async Chat Thread - #48/INFO]: [Not Secure] <NJEPOh77> Oke lur server mati ya
+[16:22:10] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[16:22:10] [Server thread/INFO]: NJEPOh77 left the game
+[16:22:14] [Server thread/INFO]: starkz lost connection: Disconnected
+[16:22:14] [Server thread/INFO]: starkz left the game
+[16:22:14] [Server thread/INFO]: Arrel7 lost connection: Disconnected
+[16:22:14] [Server thread/INFO]: Arrel7 left the game
+[16:22:17] [Server thread/INFO]: Stopping the server
+[16:22:17] [Server thread/INFO]: Stopping server
+[16:22:17] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
+[16:22:17] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
+[16:22:17] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[16:22:17] [Server thread/INFO]: Saving players
+[16:22:17] [Server thread/INFO]: Saving worlds
+[16:22:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Saved 50 block chunks, 337 entity chunks, 3 poi chunks in world 'world' in 0.05s
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:22:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:22:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:22:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:22:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:22:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:22:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:22:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:22:17] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:22:17] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:22:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:22:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
