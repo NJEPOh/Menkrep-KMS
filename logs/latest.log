@@ -1,163 +1,147 @@
-[18:16:31] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.10+8-LTS-217; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[18:16:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
-[18:16:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:16:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[18:16:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[16:30:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.10+8-LTS-217; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[16:30:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
+[16:30:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:30:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[16:30:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Essentials (2.21.2), EssentialsChat (2.21.2), EssentialsSpawn (2.21.2)
-[18:16:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:16:38] [ServerMain/INFO]: Loaded 1470 recipes
-[18:16:38] [ServerMain/INFO]: Loaded 1584 advancements
-[18:16:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[18:16:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 335.1ms
-[18:16:39] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[18:16:39] [Server thread/INFO]: Loading properties
-[18:16:39] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[18:16:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:16:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:16:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:16:40] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
-[18:16:40] [Server thread/INFO]: Default game type: SURVIVAL
-[18:16:40] [Server thread/INFO]: Generating keypair
-[18:16:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:16:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[18:16:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[18:16:40] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[18:16:40] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
-[18:16:40] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
-[18:16:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:16:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:16:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:16:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:16:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:16:40] [Server thread/INFO]: Preparing level "world"
-[18:16:41] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[18:16:41] [Server thread/INFO]: Preparing spawn area: 100%
-[18:16:41] [Server thread/INFO]: Prepared spawn area in 2 ms
-[18:16:41] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[18:16:41] [Server thread/INFO]: Prepared spawn area in 1 ms
-[18:16:41] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[18:16:41] [Server thread/INFO]: Prepared spawn area in 0 ms
-[18:16:41] [Server thread/INFO]: Done preparing level "world" (0.926s)
-[18:16:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[18:16:42] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[18:16:43] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[18:16:43] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[18:16:43] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[18:16:43] [Server thread/INFO]: [Essentials] Using locale en_ID
-[18:16:43] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:16:43] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:16:43] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[18:16:43] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
-[18:16:43] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[18:16:43] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
-[18:16:43] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[18:16:43] [Server thread/INFO]: [spark] Starting background profiler...
-[18:16:43] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[18:16:43] [Server thread/INFO]: Running delayed init tasks
-[18:16:43] [Server thread/INFO]: Done (13.424s)! For help, type "help"
-[18:16:43] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[18:29:54] [User Authenticator #0/INFO]: UUID of player starkz is c07f9c1a-0885-35e7-b7d3-1b48d4d9e979
-[18:29:54] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials]
-[18:29:57] [Server thread/INFO]: starkz joined the game
-[18:29:57] [Server thread/INFO]: starkz[/127.2.59.51:50855] logged in with entity id 1 at ([world]-233.8304012573942, 72.0, -339.65642940219476)
-[18:45:18] [Server thread/INFO]: starkz has completed the challenge [Subspace Bubble]
-[18:46:36] [Async Chat Thread - #1/INFO]: [Not Secure] <starkz> starkz
-[19:06:43] [Server thread/INFO]: starkz lost connection: Disconnected
-[19:06:43] [Server thread/INFO]: starkz left the game
-[19:08:10] [User Authenticator #1/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
-[19:08:11] [Server thread/INFO]: NJEPOh77 joined the game
-[19:08:11] [Server thread/INFO]: NJEPOh77[/127.233.184.224:50375] logged in with entity id 13878 at ([world]-68.85998063381543, 79.0, -257.73675106128684)
-[19:09:30] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[19:10:08] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
-[19:10:54] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[19:11:06] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
-[19:11:15] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
-[19:11:15] [Server thread/INFO]: NJEPOh77 left the game
-[19:26:35] [User Authenticator #2/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
-[19:26:36] [Server thread/INFO]: Formera joined the game
-[19:26:36] [Server thread/INFO]: Formera[/127.144.169.203:55819] logged in with entity id 14571 at ([world]-257.96854536946796, 49.0, -156.55005843525961)
-[19:27:07] [Server thread/INFO]: Formera lost connection: Disconnected
-[19:27:07] [Server thread/INFO]: Formera left the game
-[19:27:55] [User Authenticator #3/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
-[19:27:56] [Server thread/INFO]: NJEPOh77 joined the game
-[19:27:56] [Server thread/INFO]: NJEPOh77[/127.233.184.224:54970] logged in with entity id 14960 at ([world]-74.12779099320281, 80.0, -241.42368615026137)
-[19:29:36] [User Authenticator #4/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
-[19:29:38] [Server thread/INFO]: Formera joined the game
-[19:29:38] [Server thread/INFO]: Formera[/127.144.169.203:59392] logged in with entity id 15483 at ([world]-255.46220460891274, 49.0, -162.583160008735)
-[19:29:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Formera> kok sepi min
-[19:30:03] [Async Chat Thread - #2/INFO]: [Not Secure] <NJEPOh77> udah capek
-[19:30:11] [Async Chat Thread - #2/INFO]: [Not Secure] <NJEPOh77> Pada main sejak matkul veren
-[19:30:24] [Async Chat Thread - #2/INFO]: [Not Secure] <NJEPOh77> Iki aku gor on bentar tok
-[19:30:27] [Async Chat Thread - #2/INFO]: [Not Secure] <NJEPOh77> hehe
-[19:30:37] [Server thread/WARN]: Formera was kicked for floating too long!
-[19:30:37] [Server thread/INFO]: Formera lost connection: Flying is not enabled on this server
-[19:30:38] [Server thread/INFO]: Formera left the game
-[19:30:42] [User Authenticator #5/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
-[19:30:43] [Server thread/INFO]: Formera joined the game
-[19:30:43] [Server thread/INFO]: Formera[/127.144.169.203:59395] logged in with entity id 16591 at ([world]-525.0884499260633, 68.05968080036803, 58.12306661264391)
-[19:30:47] [Async Chat Thread - #2/INFO]: [Not Secure] <NJEPOh77> njir
-[19:34:19] [Server thread/INFO]: Formera lost connection: Disconnected
-[19:34:19] [Server thread/INFO]: Formera left the game
-[19:44:05] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[19:47:02] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
-[19:48:28] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
-[19:48:28] [Server thread/INFO]: NJEPOh77 left the game
-[19:48:42] [Server thread/INFO]: Stopping the server
-[19:48:42] [Server thread/INFO]: Stopping server
-[19:48:42] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
-[19:48:42] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
-[19:48:42] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[19:48:42] [Server thread/INFO]: Saving players
-[19:48:42] [Server thread/INFO]: Saving worlds
-[19:48:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[19:48:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[19:48:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[19:48:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[19:48:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:48:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:48:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:48:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:48:42] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[19:48:42] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[19:48:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[19:48:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[16:30:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:30:48] [ServerMain/INFO]: Loaded 1470 recipes
+[16:30:48] [ServerMain/INFO]: Loaded 1584 advancements
+[16:30:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:30:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 735.2ms
+[16:30:49] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[16:30:49] [Server thread/INFO]: Loading properties
+[16:30:49] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[16:30:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:30:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:30:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:30:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
+[16:30:50] [Server thread/INFO]: Default game type: SURVIVAL
+[16:30:50] [Server thread/INFO]: Generating keypair
+[16:30:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:30:51] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:30:51] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:30:51] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[16:30:51] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
+[16:30:51] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[16:30:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:30:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:30:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:30:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:30:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:30:51] [Server thread/INFO]: Preparing level "world"
+[16:30:52] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[16:30:52] [Server thread/INFO]: Preparing spawn area: 100%
+[16:30:52] [Server thread/INFO]: Prepared spawn area in 4 ms
+[16:30:52] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[16:30:52] [Server thread/INFO]: Prepared spawn area in 13 ms
+[16:30:52] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[16:30:52] [Server thread/INFO]: Prepared spawn area in 14 ms
+[16:30:52] [Server thread/INFO]: Done preparing level "world" (1.283s)
+[16:30:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[16:30:54] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[16:30:54] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:30:54] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[16:30:54] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[16:30:54] [Server thread/INFO]: [Essentials] Using locale en_ID
+[16:30:54] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:30:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:30:54] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[16:30:54] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
+[16:30:54] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:30:54] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[16:30:54] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:30:55] [Server thread/INFO]: [spark] Starting background profiler...
+[16:30:55] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[16:30:55] [Server thread/INFO]: Running delayed init tasks
+[16:30:55] [Server thread/INFO]: Done (16.427s)! For help, type "help"
+[16:30:55] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:34:23] [User Authenticator #0/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[16:34:23] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials]
+[16:34:27] [Server thread/INFO]: NJEPOh77 joined the game
+[16:34:27] [Server thread/INFO]: NJEPOh77[/127.98.118.238:53059] logged in with entity id 1 at ([world]-72.86307496642785, 80.0, -242.34278710857686)
+[17:18:16] [Server thread/INFO]: NJEPOh77 issued server command: /fill -104 78 -244 -71 78 -271 minecraft:grass_block
+[17:18:16] [Server thread/INFO]: [NJEPOh77: Successfully filled 351 block(s)]
+[17:18:39] [Server thread/INFO]: NJEPOh77 issued server command: /fill -104 76 -244 -71 75 -271 minecraft:grass_block
+[17:18:39] [Server thread/INFO]: [NJEPOh77: Successfully filled 1783 block(s)]
+[17:18:53] [Server thread/INFO]: NJEPOh77 issued server command: /fill -104 76 -244 -71 78 -271 minecraft:grass_block
+[17:18:53] [Server thread/INFO]: [NJEPOh77: Successfully filled 1022 block(s)]
+[17:21:05] [Server thread/INFO]: NJEPOh77 issued server command: /fill -104 79 -244 -71 79 -271 minecraft:grass_block
+[17:21:05] [Server thread/INFO]: [NJEPOh77: Successfully filled 952 block(s)]
+[17:21:14] [Server thread/INFO]: NJEPOh77 issued server command: /fill -104 79 -244 -71 79 -271 minecraft:air
+[17:21:14] [Server thread/INFO]: [NJEPOh77: Successfully filled 952 block(s)]
+[17:22:21] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[17:22:21] [Server thread/INFO]: NJEPOh77 left the game
+[17:26:12] [User Authenticator #1/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[17:26:13] [Server thread/INFO]: NJEPOh77 joined the game
+[17:26:13] [Server thread/INFO]: NJEPOh77[/127.98.118.238:50681] logged in with entity id 7435 at ([world]-73.03638818274905, 79.0, -244.7884879349316)
+[17:39:20] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[17:41:36] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
+[17:42:07] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[17:42:07] [Server thread/INFO]: NJEPOh77 left the game
+[18:16:50] [User Authenticator #2/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[18:16:51] [Server thread/INFO]: NJEPOh77 joined the game
+[18:16:51] [Server thread/INFO]: NJEPOh77[/127.98.118.238:61720] logged in with entity id 9986 at ([world]-167.2078745125774, 89.0, -378.4508351749358)
+[18:25:56] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
+[18:38:16] [Server thread/INFO]: NJEPOh77 issued server command: /time set day
+[18:54:58] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[18:54:58] [Server thread/INFO]: NJEPOh77 left the game
+[18:55:08] [Server thread/INFO]: Stopping the server
+[18:55:08] [Server thread/INFO]: Stopping server
+[18:55:08] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
+[18:55:08] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
+[18:55:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[18:55:08] [Server thread/INFO]: Saving players
+[18:55:08] [Server thread/INFO]: Saving worlds
+[18:55:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Saved 36 block chunks, 197 entity chunks, 0 poi chunks in world 'world' in 0.03s
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[18:55:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[18:55:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[18:55:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[18:55:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:55:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:55:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:55:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:55:08] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:55:08] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[18:55:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:55:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
