@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.56.142.74
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774685245672
+  login: 1774682658711
+money: '0'
+last-account-name: Jovan2K
+lastlocation:
+  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
+  world-name: world
+  x: -38.5
+  y: 84.0
+  z: -28.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
+  world-name: world
+  x: -41.49496720241703
+  y: -51.99866402088785
+  z: -359.36792878499034
+  yaw: 37.04376220703125
+  pitch: 18.00002098083496
