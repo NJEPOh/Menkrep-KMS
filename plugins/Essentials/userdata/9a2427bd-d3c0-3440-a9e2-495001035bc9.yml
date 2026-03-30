@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1774686913027
-  login: 1774685592462
+  logout: 1774845527641
+  login: 1774845281864
 money: '0'
 last-account-name: Formera
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 0f5e378c-28ef-497c-942e-bef9a2a5c10d
   world-name: world
-  x: -258.0600797173602
+  x: -255.79714608530176
   y: 49.0
-  z: -158.36856632845686
-  yaw: -143.0998992919922
-  pitch: 18.150005340576172
+  z: -160.12735336422298
+  yaw: 141.4000701904297
+  pitch: 21.525005340576172
