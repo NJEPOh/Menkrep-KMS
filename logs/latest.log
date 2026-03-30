@@ -1,342 +1,650 @@
-[12:23:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.10+8-LTS-217; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[12:23:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
-[12:23:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:23:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 23 plugins
-[12:23:25] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (16):
+[14:56:02] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.10+8-LTS-217; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[14:56:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
+[14:56:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:56:04] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
+[14:56:04] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (16):
  - vane-admin (1.21.0), vane-admin (1.21.1), vane-bedtime (1.21.0), vane-bedtime (1.21.1), vane-core (1.21.0), vane-core (1.21.1), vane-enchantments (1.21.0), vane-enchantments (1.21.1), vane-permissions (1.21.0), vane-permissions (1.21.1), vane-portals (1.21.0), vane-portals (1.21.1), vane-regions (1.21.0), vane-regions (1.21.1), vane-trifles (1.21.0), vane-trifles (1.21.1)
-[12:23:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - AuraSkills (2.3.11), Essentials (2.21.2), EssentialsChat (2.21.2), EssentialsSpawn (2.21.2), LevelledMobs (4.5.1 b143), ProtocolLib (5.4.0), SkinsRestorer (15.11.0)
-[12:23:25] [ServerMain/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-enchantments' for files 'plugins\vane-enchantments-1.21.1.jar' and 'plugins\vane-enchantments-1.21.0.jar' in 'plugins'
-[12:23:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[12:23:32] [ServerMain/INFO]: Loaded 1470 recipes
-[12:23:32] [ServerMain/INFO]: Loaded 1584 advancements
-[12:23:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[12:23:33] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 370.1ms
-[12:23:33] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[12:23:33] [Server thread/INFO]: Loading properties
-[12:23:33] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[12:23:33] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:23:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:23:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:23:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
-[12:23:34] [Server thread/INFO]: Default game type: SURVIVAL
-[12:23:34] [Server thread/INFO]: Generating keypair
-[12:23:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:23:34] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:23:34] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:23:34] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-admin' for files 'plugins\vane-admin-1.21.1.jar' and 'plugins\vane-admin-1.21.0.jar' in 'plugins'
-[12:23:34] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-bedtime' for files 'plugins\vane-bedtime-1.21.1.jar' and 'plugins\vane-bedtime-1.21.0.jar' in 'plugins'
-[12:23:34] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-core' for files 'plugins\vane-core-1.21.1.jar' and 'plugins\vane-core-1.21.0.jar' in 'plugins'
-[12:23:34] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-permissions' for files 'plugins\vane-permissions-1.21.1.jar' and 'plugins\vane-permissions-1.21.0.jar' in 'plugins'
-[12:23:34] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-portals' for files 'plugins\vane-portals-1.21.1.jar' and 'plugins\vane-portals-1.21.0.jar' in 'plugins'
-[12:23:34] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-regions' for files 'plugins\vane-regions-1.21.1.jar' and 'plugins\vane-regions-1.21.0.jar' in 'plugins'
-[12:23:34] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-trifles' for files 'plugins\vane-trifles-1.21.1.jar' and 'plugins\vane-trifles-1.21.0.jar' in 'plugins'
-[12:23:34] [Server thread/INFO]: [vane-core] Loading head library...
-[12:23:36] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[12:23:36] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[12:23:36] [Server thread/INFO]: [vane-core] Loading server plugin vane-core v1.21.1
-[12:23:36] [Server thread/INFO]: [vane-regions] Loading server plugin vane-regions v1.21.1
-[12:23:36] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[12:23:36] [Server thread/INFO]: [vane-trifles] Loading server plugin vane-trifles v1.21.1
-[12:23:36] [Server thread/INFO]: [vane-portals] Loading server plugin vane-portals v1.21.1
-[12:23:36] [Server thread/INFO]: [vane-permissions] Loading server plugin vane-permissions v1.21.1
-[12:23:36] [Server thread/INFO]: [vane-enchantments] Loading server plugin vane-enchantments v1.21.1
-[12:23:36] [Server thread/INFO]: [vane-bedtime] Loading server plugin vane-bedtime v1.21.1
-[12:23:36] [Server thread/INFO]: [vane-admin] Loading server plugin vane-admin v1.21.1
-[12:23:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.11.0
-[12:23:36] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.5.1 b143
-[12:23:36] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
-[12:23:36] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
-[12:23:36] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.11
-[12:23:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:23:36] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[12:23:36] [Server thread/INFO]: [vane-core] Enabling vane-core v1.21.1
-[12:23:36] [Server thread/INFO]: [vane-core] Serving official vane resource pack
-[12:23:36] [Server thread/INFO]: [vane-core] Distributing resource pack from 'https://oddlama.github.io/vane/resourcepacks/v1.21.1.zip' with sha1 033e3cdf7e78a1c68acd7c2eef48678c663ed44f
-[12:23:36] [Server thread/INFO]: [vane-regions] Enabling vane-regions v1.21.1
-[12:23:37] [Server thread/INFO]: [vane-trifles] Enabling vane-trifles v1.21.1
-[12:23:37] [Server thread/INFO]: [vane-portals] Enabling vane-portals v1.21.1
-[12:23:37] [Server thread/INFO]: [vane-permissions] Enabling vane-permissions v1.21.1
-[12:23:37] [Server thread/INFO]: [vane-enchantments] Enabling vane-enchantments v1.21.1
-[12:23:37] [Server thread/INFO]: [vane-bedtime] Enabling vane-bedtime v1.21.1
-[12:23:38] [Server thread/INFO]: [vane-admin] Enabling vane-admin v1.21.1
-[12:23:38] [Server thread/INFO]: [vane-admin] Autostop scheduled in 20m
-[12:23:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.11.0
-[12:23:39] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
-[12:23:39] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[12:23:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:23:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:23:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:23:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:23:39] [Server thread/INFO]: Preparing level "world"
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.11.0
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 52f31ab
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[12:23:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[12:23:40] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[12:23:40] [Server thread/INFO]: Preparing spawn area: 100%
-[12:23:40] [Server thread/INFO]: Prepared spawn area in 3 ms
-[12:23:40] [Server thread/INFO]: [vane-regions] Loaded 0 regions for world world(0f5e378c-28ef-497c-942e-bef9a2a5c10d)
-[12:23:40] [Server thread/INFO]: [vane-portals] Loaded 0 portals for world world(0f5e378c-28ef-497c-942e-bef9a2a5c10d)
-[12:23:40] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[12:23:40] [Server thread/INFO]: Prepared spawn area in 1 ms
-[12:23:40] [Server thread/INFO]: [vane-regions] Loaded 0 regions for world world_nether(e1b78399-dfc5-48d7-b995-c68793f6fd42)
-[12:23:40] [Server thread/INFO]: [vane-portals] Loaded 0 portals for world world_nether(e1b78399-dfc5-48d7-b995-c68793f6fd42)
-[12:23:40] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[12:23:40] [Server thread/INFO]: Prepared spawn area in 0 ms
-[12:23:40] [Server thread/INFO]: [vane-regions] Loaded 0 regions for world world_the_end(a02f1b72-3b25-488b-9dc0-99de4c7f75f9)
-[12:23:40] [Server thread/INFO]: [vane-portals] Loaded 0 portals for world world_the_end(a02f1b72-3b25-488b-9dc0-99de4c7f75f9)
-[12:23:40] [Server thread/INFO]: Done preparing level "world" (0.854s)
-[12:23:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[12:23:41] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[12:23:41] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:23:41] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[12:23:41] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[12:23:41] [Server thread/INFO]: [Essentials] Using locale en_ID
-[12:23:41] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[12:23:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[12:23:42] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[12:23:42] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.5.1 b143
-[12:23:42] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[12:23:42] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
-[12:23:42] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.11 for nametag support
-[12:23:42] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[12:23:42] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[12:23:42] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[12:23:42] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[12:23:42] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[12:23:42] [Server thread/INFO]: [LevelledMobs] Current rules hash: 73b9a0f7e40fafcc067f299aacec07dfffe28456f08a7aeede57f22e14d856a3
-[12:23:42] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[12:23:42] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[12:23:42] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[12:23:42] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[12:23:42] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 366ms)
-[12:23:42] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
-[12:23:42] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[12:23:42] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
-[12:23:42] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[12:23:42] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.11
-[12:23:43] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[12:23:43] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
-[12:23:43] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 73 ms
-[12:23:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[12:23:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[12:23:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[12:23:43] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[12:23:44] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[12:23:44] [Server thread/INFO]: [spark] Starting background profiler...
-[12:23:44] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[12:23:45] [Server thread/INFO]: Running delayed init tasks
-[12:23:45] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[12:23:46] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 327 total sources
-[12:23:46] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[12:23:46] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[12:23:46] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[12:23:46] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[12:23:46] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[12:23:46] [Server thread/INFO]: Done (25.186s)! For help, type "help"
-[12:25:35] [User Authenticator #0/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
-[12:25:35] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials, ProtocolLib]
-[12:25:42] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has joined the server
-[12:25:42] [Server thread/INFO]: [vane-admin] Autostop aborted
-[12:25:42] [Server thread/INFO]: NJEPOh77[/127.43.190.72:49203] logged in with entity id 1 at ([world]-163.20961795648427, 80.0, -295.8817439605973)
-[12:29:15] [User Authenticator #1/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
-[12:29:19] [Server thread/INFO]: [vane-admin] [broadcast] Formera has joined the server
-[12:29:19] [Server thread/INFO]: Autostop not scheduled
-[12:29:19] [Server thread/INFO]: Formera[/127.56.142.74:59817] logged in with entity id 736 at ([world]-255.79714608530176, 49.0, -160.12735336422298)
-[12:29:25] [Server thread/INFO]: Formera issued server command: /list
-[12:29:26] [Server thread/INFO]: Formera issued server command: /help
-[12:31:37] [User Authenticator #2/INFO]: UUID of player Starkz is a1c1e0b6-5ffd-3666-b7ee-4f2545e4db8a
-[12:31:44] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
-[12:31:44] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has left the server
-[12:31:47] [Server thread/INFO]: [vane-trifles] Given 1320 recipes to Starkz
-[12:31:47] [Server thread/INFO]: [vane-admin] [broadcast] Starkz has joined the server
-[12:31:47] [Server thread/INFO]: Autostop not scheduled
-[12:31:47] [Server thread/INFO]: Starkz[/127.43.190.72:54469] logged in with entity id 1376 at ([world]4845.80188777476, 196.0, 1372.8273243279377)
-[12:31:49] [User Authenticator #2/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[12:31:56] [Server thread/INFO]: Formera issued server command: /help
-[12:32:01] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has joined the server
-[12:32:01] [Server thread/INFO]: Autostop not scheduled
-[12:32:01] [Server thread/INFO]: Arrel7[/127.56.142.74:54477] logged in with entity id 1464 at ([world]-163.80491217821842, 80.0, -294.2609590172767)
-[12:32:28] [Server thread/INFO]: Starkz lost connection: Disconnected
-[12:32:28] [Server thread/INFO]: [vane-admin] [broadcast] Starkz has left the server
-[12:32:45] [Server thread/INFO]: Formera issued server command: /lsit
-[12:32:47] [Server thread/INFO]: Formera issued server command: /list
-[12:33:01] [Server thread/INFO]: Formera issued server command: /plugins
-[12:33:27] [Server thread/INFO]: Formera lost connection: Disconnected
-[12:33:27] [Server thread/INFO]: [vane-admin] [broadcast] Formera has left the server
-[12:53:40] [Server thread/INFO]: Arrel7 has made the advancement [Suit Up]
-[14:04:10] [Server thread/INFO]: Arrel7 lost connection: Disconnected
-[14:04:10] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has left the server
-[14:04:10] [Server thread/INFO]: [vane-admin] Autostop scheduled in 20m
-[14:07:25] [User Authenticator #3/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
-[14:07:29] [Server thread/INFO]: [vane-admin] [broadcast] Formera has joined the server
-[14:07:29] [Server thread/INFO]: [vane-admin] Autostop aborted
-[14:07:29] [Server thread/INFO]: Formera[/127.56.142.74:55417] logged in with entity id 15937 at ([world]-241.36384437010196, 79.0, -250.56273335912078)
-[14:08:11] [User Authenticator #3/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[14:08:23] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has joined the server
-[14:08:23] [Server thread/INFO]: Autostop not scheduled
-[14:08:23] [Server thread/INFO]: Arrel7[/127.56.142.74:55422] logged in with entity id 16354 at ([world]-236.6626697937532, 71.9375, -342.41455033025784)
-[14:09:20] [User Authenticator #4/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
-[14:09:24] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has joined the server
-[14:09:24] [Server thread/INFO]: Autostop not scheduled
-[14:09:24] [Server thread/INFO]: NJEPOh77[/127.43.190.72:55430] logged in with entity id 16775 at ([world]-223.5340800390533, 68.0, -325.4414151960361)
-[14:12:01] [Craft Scheduler Thread - 34 - LevelledMobs/WARN]: [LevelledMobs] Restarting Nametag Queue Manager task, status was queue size was 1140
-[14:12:01] [Craft Scheduler Thread - 34 - LevelledMobs/WARN]: [LevelledMobs] Restarting Nametag Queue Manager task, status was queue size was 1140
-[14:12:01] [Craft Scheduler Thread - 34 - LevelledMobs/WARN]: [LevelledMobs] Restarting Nametag Queue Manager task, status was queue size was 1140
-[14:13:49] [Server thread/INFO]: Formera lost connection: Disconnected
-[14:13:49] [Server thread/INFO]: [vane-admin] [broadcast] Formera has left the server
-[14:13:53] [User Authenticator #5/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
-[14:13:58] [Server thread/INFO]: [vane-admin] [broadcast] Formera has joined the server
-[14:13:58] [Server thread/INFO]: Autostop not scheduled
-[14:13:58] [Server thread/INFO]: Formera[/127.56.142.74:55444] logged in with entity id 18404 at ([world]-184.92845877810686, 71.0, -294.32057845008)
-[14:14:40] [Server thread/INFO]: Formera issued server command: /help
-[14:18:25] [Server thread/INFO]: Formera has made the advancement [Fishy Business]
-[14:18:33] [Server thread/INFO]: NJEPOh77 issued server command: /tp
-[14:19:28] [Server thread/INFO]: NJEPOh77 issued server command: /tp NJEPOh77 Arrel7
-[14:25:35] [Server thread/INFO]: Formera issued server command: /gamemode c
-[14:25:44] [Server thread/INFO]: Formera issued server command: /gamemode creative
-[14:25:50] [Server thread/WARN]: Formera moved too quickly! -2.728293864012528,1.5,-9.813516698695082
-[14:25:57] [Server thread/INFO]: Formera issued server command: /gamemode survival
-[14:26:13] [Server thread/INFO]: NJEPOh77 issued server command: /kill Formera
-[14:26:13] [Server thread/INFO]: Formera fell from a high place
-[14:26:36] [User Authenticator #6/INFO]: UUID of player AiZE_flow is c7a2d222-8d87-345a-8de7-1e3d3a169f64
-[14:26:52] [Server thread/INFO]: [vane-trifles] Given 1489 recipes to AiZE_flow
-[14:26:52] [Server thread/INFO]: [vane-admin] [broadcast] AiZE_flow has joined the server
-[14:26:52] [Server thread/INFO]: Autostop not scheduled
-[14:26:52] [Server thread/INFO]: AiZE_flow[/127.56.142.74:60517] logged in with entity id 22592 at ([world]-30.5, 66.0, -40.5)
-[14:26:52] [Server thread/INFO]: AiZE_flow has made the advancement [Isn't It Iron Pick]
-[14:26:52] [Server thread/INFO]: AiZE_flow has made the advancement [Getting an Upgrade]
-[14:26:52] [Server thread/INFO]: AiZE_flow has made the advancement [Suit Up]
-[14:28:37] [Server thread/INFO]: Formera issued server command: /auraskills:abtoggle
-[14:28:39] [Server thread/INFO]: Formera issued server command: /auraskills:abtoggle
-[14:28:46] [Server thread/INFO]: Formera issued server command: /auraskills:agility
-[14:28:56] [Server thread/INFO]: Arrel7 was kicked due to keepalive timeout!
-[14:28:56] [Server thread/INFO]: Arrel7 lost connection: Timed out
-[14:28:56] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 was kicked from the server
-[14:29:06] [Server thread/INFO]: Formera issued server command: /auraskills:abtoggle
-[14:29:07] [Server thread/INFO]: Formera issued server command: /auraskills:abtoggle
-[14:29:10] [Server thread/INFO]: Formera issued server command: /auraskills
-[14:29:22] [Server thread/INFO]: Formera issued server command: /
-[14:29:26] [Server thread/INFO]: Formera issued server command: /auraskills:skillrank
-[14:29:30] [Server thread/INFO]: Formera issued server command: /auraskills:skill
-[14:29:35] [Server thread/INFO]: Formera issued server command: /skill
-[14:29:58] [User Authenticator #7/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[14:30:07] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has joined the server
-[14:30:07] [Server thread/INFO]: Autostop not scheduled
-[14:30:07] [Server thread/INFO]: Arrel7[/127.56.142.74:60529] logged in with entity id 24011 at ([world_nether]646.5, 127.50909999847413, 137.17463477618264)
-[14:30:18] [Server thread/INFO]: Arrel7 issued server command: /skills
-[14:30:25] [Server thread/INFO]: Formera issued server command: /help
-[14:30:27] [Server thread/INFO]: Formera issued server command: /list
-[14:31:57] [Server thread/INFO]: Formera issued server command: /skill
-[14:32:35] [Server thread/INFO]: Formera issued server command: /skill
-[14:34:04] [Server thread/WARN]: Formera moved too quickly! -29.438780729948775,0.7531999805212024,-0.7314666215926877
-[14:34:32] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
-[14:34:32] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has left the server
-[14:35:55] [Server thread/INFO]: Arrel7 issued server command: /skill
-[14:36:52] [Server thread/INFO]: Arrel7 issued server command: /skills
-[14:38:06] [Server thread/INFO]: Formera issued server command: /list
-[14:38:25] [Server thread/INFO]: Formera issued server command: /skill
-[14:38:35] [Server thread/INFO]: Arrel7 issued server command: /skills
-[14:38:41] [Server thread/INFO]: Formera issued server command: /skill
-[14:39:11] [Server thread/INFO]: Formera issued server command: /skill
-[14:39:21] [Server thread/INFO]: Arrel7 issued server command: /s
-[14:39:21] [Server thread/INFO]: [Essentials] Arrel7 was denied access to command.
-[14:39:26] [Server thread/INFO]: Arrel7 issued server command: /skills
-[14:40:32] [Server thread/INFO]: Arrel7 issued server command: /skills
-[14:44:22] [Server thread/INFO]: AiZE_flow lost connection: Disconnected
-[14:44:22] [Server thread/INFO]: [vane-admin] [broadcast] AiZE_flow has left the server
-[14:51:05] [User Authenticator #8/INFO]: UUID of player AiZE_flow is c7a2d222-8d87-345a-8de7-1e3d3a169f64
-[14:51:11] [Server thread/INFO]: [vane-admin] [broadcast] AiZE_flow has joined the server
-[14:51:11] [Server thread/INFO]: Autostop not scheduled
-[14:51:11] [Server thread/INFO]: AiZE_flow[/127.56.142.74:52058] logged in with entity id 34128 at ([world]-218.47022075486197, 69.0, -330.5696196593857)
-[14:51:38] [Server thread/INFO]: Formera was slain by Lvl 13 | Drowned
-[14:51:57] [Server thread/INFO]: Stopping server
-[14:51:57] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.11
-[14:51:57] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
-[14:51:57] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
-[14:51:57] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.5.1 b143
-[14:51:57] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[14:51:57] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 1ms)
-[14:51:57] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.11.0
-[14:51:57] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[14:51:57] [Craft Scheduler Thread - 4 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[14:51:57] [Server thread/INFO]: [vane-admin] Disabling vane-admin v1.21.1
-[14:51:57] [Server thread/INFO]: [vane-bedtime] Disabling vane-bedtime v1.21.1
-[14:51:57] [Server thread/INFO]: [vane-enchantments] Disabling vane-enchantments v1.21.1
-[14:51:57] [Server thread/INFO]: [vane-permissions] Disabling vane-permissions v1.21.1
-[14:51:57] [Server thread/INFO]: [vane-portals] Disabling vane-portals v1.21.1
-[14:51:57] [Server thread/INFO]: [vane-trifles] Disabling vane-trifles v1.21.1
-[14:51:57] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[14:51:57] [Server thread/INFO]: [vane-regions] Disabling vane-regions v1.21.1
-[14:51:57] [Server thread/INFO]: [vane-core] Disabling vane-core v1.21.1
-[14:51:57] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[14:51:57] [Server thread/INFO]: Saving players
-[14:51:58] [Server thread/INFO]: Formera lost connection: Server closed
-[14:51:58] [Server thread/INFO]: Formera left the game
-[14:51:58] [Server thread/INFO]: Arrel7 lost connection: Server closed
-[14:51:58] [Server thread/INFO]: Arrel7 left the game
-[14:51:58] [Server thread/INFO]: AiZE_flow lost connection: Server closed
-[14:51:58] [Server thread/INFO]: AiZE_flow left the game
-[14:51:58] [Server thread/INFO]: Saving worlds
-[14:51:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Saved 431 block chunks, 572 entity chunks, 0 poi chunks in world 'world' in 0.16s
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[14:51:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[14:51:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[14:51:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[14:51:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:51:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:51:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:51:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:51:58] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[14:51:58] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[14:51:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[14:51:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[14:56:04] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - AuraSkills (2.3.11), Essentials (2.21.2), EssentialsChat (2.21.2), EssentialsSpawn (2.21.2), ProtocolLib (5.4.0), SkinsRestorer (15.11.0)
+[14:56:04] [ServerMain/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-enchantments' for files 'plugins\vane-enchantments-1.21.1.jar' and 'plugins\vane-enchantments-1.21.0.jar' in 'plugins'
+[14:56:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:56:11] [ServerMain/INFO]: Loaded 1470 recipes
+[14:56:11] [ServerMain/INFO]: Loaded 1584 advancements
+[14:56:11] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[14:56:12] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 754.9ms
+[14:56:12] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[14:56:12] [Server thread/INFO]: Loading properties
+[14:56:12] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[14:56:12] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:56:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:56:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:56:13] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
+[14:56:13] [Server thread/INFO]: Default game type: SURVIVAL
+[14:56:13] [Server thread/INFO]: Generating keypair
+[14:56:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:56:13] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:56:13] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:56:13] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-admin' for files 'plugins\vane-admin-1.21.1.jar' and 'plugins\vane-admin-1.21.0.jar' in 'plugins'
+[14:56:13] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-bedtime' for files 'plugins\vane-bedtime-1.21.1.jar' and 'plugins\vane-bedtime-1.21.0.jar' in 'plugins'
+[14:56:13] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-core' for files 'plugins\vane-core-1.21.1.jar' and 'plugins\vane-core-1.21.0.jar' in 'plugins'
+[14:56:13] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-permissions' for files 'plugins\vane-permissions-1.21.1.jar' and 'plugins\vane-permissions-1.21.0.jar' in 'plugins'
+[14:56:13] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-portals' for files 'plugins\vane-portals-1.21.1.jar' and 'plugins\vane-portals-1.21.0.jar' in 'plugins'
+[14:56:13] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-regions' for files 'plugins\vane-regions-1.21.1.jar' and 'plugins\vane-regions-1.21.0.jar' in 'plugins'
+[14:56:13] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-trifles' for files 'plugins\vane-trifles-1.21.1.jar' and 'plugins\vane-trifles-1.21.0.jar' in 'plugins'
+[14:56:14] [Server thread/INFO]: [vane-core] Loading head library...
+[14:56:15] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[14:56:15] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[14:56:16] [Server thread/INFO]: [vane-core] Loading server plugin vane-core v1.21.1
+[14:56:16] [Server thread/INFO]: [vane-regions] Loading server plugin vane-regions v1.21.1
+[14:56:16] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[14:56:16] [Server thread/INFO]: [vane-trifles] Loading server plugin vane-trifles v1.21.1
+[14:56:16] [Server thread/INFO]: [vane-portals] Loading server plugin vane-portals v1.21.1
+[14:56:16] [Server thread/INFO]: [vane-permissions] Loading server plugin vane-permissions v1.21.1
+[14:56:16] [Server thread/INFO]: [vane-enchantments] Loading server plugin vane-enchantments v1.21.1
+[14:56:16] [Server thread/INFO]: [vane-bedtime] Loading server plugin vane-bedtime v1.21.1
+[14:56:16] [Server thread/INFO]: [vane-admin] Loading server plugin vane-admin v1.21.1
+[14:56:16] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.11.0
+[14:56:16] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
+[14:56:16] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[14:56:16] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.11
+[14:56:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:56:16] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[14:56:16] [Server thread/INFO]: [vane-core] Enabling vane-core v1.21.1
+[14:56:16] [Server thread/INFO]: [vane-core] Serving official vane resource pack
+[14:56:17] [Server thread/INFO]: [vane-core] Distributing resource pack from 'https://oddlama.github.io/vane/resourcepacks/v1.21.1.zip' with sha1 033e3cdf7e78a1c68acd7c2eef48678c663ed44f
+[14:56:17] [Server thread/INFO]: [vane-regions] Enabling vane-regions v1.21.1
+[14:56:17] [Server thread/INFO]: [vane-trifles] Enabling vane-trifles v1.21.1
+[14:56:18] [Server thread/INFO]: [vane-portals] Enabling vane-portals v1.21.1
+[14:56:18] [Server thread/INFO]: [vane-permissions] Enabling vane-permissions v1.21.1
+[14:56:18] [Server thread/INFO]: [vane-enchantments] Enabling vane-enchantments v1.21.1
+[14:56:19] [Server thread/INFO]: [vane-bedtime] Enabling vane-bedtime v1.21.1
+[14:56:19] [Server thread/INFO]: [vane-admin] Enabling vane-admin v1.21.1
+[14:56:19] [Server thread/INFO]: [vane-admin] Autostop scheduled in 20m
+[14:56:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.11.0
+[14:56:22] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[14:56:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:56:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:56:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:56:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:56:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:56:23] [Server thread/INFO]: Preparing level "world"
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.11.0
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 52f31ab
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:56:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:56:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[14:56:24] [Server thread/INFO]: Preparing spawn area: 100%
+[14:56:24] [Server thread/INFO]: Prepared spawn area in 5 ms
+[14:56:24] [Server thread/INFO]: [vane-regions] Loaded 0 regions for world world(0f5e378c-28ef-497c-942e-bef9a2a5c10d)
+[14:56:24] [Server thread/INFO]: [vane-portals] Loaded 0 portals for world world(0f5e378c-28ef-497c-942e-bef9a2a5c10d)
+[14:56:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[14:56:24] [Server thread/INFO]: Prepared spawn area in 14 ms
+[14:56:24] [Server thread/INFO]: [vane-regions] Loaded 0 regions for world world_nether(e1b78399-dfc5-48d7-b995-c68793f6fd42)
+[14:56:24] [Server thread/INFO]: [vane-portals] Loaded 0 portals for world world_nether(e1b78399-dfc5-48d7-b995-c68793f6fd42)
+[14:56:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[14:56:24] [Server thread/INFO]: Prepared spawn area in 16 ms
+[14:56:24] [Server thread/INFO]: [vane-regions] Loaded 0 regions for world world_the_end(a02f1b72-3b25-488b-9dc0-99de4c7f75f9)
+[14:56:24] [Server thread/INFO]: [vane-portals] Loaded 0 portals for world world_the_end(a02f1b72-3b25-488b-9dc0-99de4c7f75f9)
+[14:56:24] [Server thread/INFO]: Done preparing level "world" (1.063s)
+[14:56:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[14:56:24] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[14:56:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:56:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[14:56:25] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[14:56:25] [Server thread/INFO]: [Essentials] Using locale en_ID
+[14:56:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:56:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:56:25] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[14:56:25] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
+[14:56:25] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[14:56:25] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[14:56:25] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[14:56:25] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.11
+[14:56:26] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[14:56:27] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
+[14:56:27] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 28 ms
+[14:56:27] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[14:56:27] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[14:56:27] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[14:56:27] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[14:56:27] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[14:56:27] [Server thread/INFO]: [spark] Starting background profiler...
+[14:56:27] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[14:56:27] [Server thread/INFO]: Running delayed init tasks
+[14:56:27] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[14:56:28] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 327 total sources
+[14:56:28] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[14:56:28] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[14:56:28] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[14:56:28] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:56:28] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[14:56:28] [Server thread/INFO]: Done (27.296s)! For help, type "help"
+[14:56:41] [Server thread/INFO]: --------- Help: Index ---------------------------------
+[14:56:41] [Server thread/INFO]: Use /help [n] to get page n of help.
+[14:56:41] [Server thread/INFO]: Aliases: Lists command aliases
+[14:56:41] [Server thread/INFO]: AuraSkills: All commands for AuraSkills
+[14:56:41] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[14:56:41] [Server thread/INFO]: Essentials: All commands for Essentials
+[14:56:41] [Server thread/INFO]: EssentialsChat: All commands for EssentialsChat
+[14:56:41] [Server thread/INFO]: EssentialsSpawn: All commands for EssentialsSpawn
+[14:56:41] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[14:56:41] [Server thread/INFO]: Paper: All commands for Paper
+[14:56:41] [Server thread/INFO]: ProtocolLib: All commands for ProtocolLib
+[14:56:41] [Server thread/INFO]: SkinsRestorer: All commands for SkinsRestorer
+[14:56:41] [Server thread/INFO]: vane-admin: All commands for vane-admin
+[14:56:41] [Server thread/INFO]: vane-core: All commands for vane-core
+[14:56:41] [Server thread/INFO]: vane-permissions: All commands for vane-permissions
+[14:56:41] [Server thread/INFO]: vane-regions: All commands for vane-regions
+[14:56:41] [Server thread/INFO]: vane-trifles: All commands for vane-trifles
+[14:56:41] [Server thread/INFO]: /abtoggle: Toggles your own skills action bar.
+[14:56:41] [Server thread/INFO]: /advancement: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /afk: Marks you as away-from-keyboard.
+[14:56:41] [Server thread/INFO]: /agility: 
+[14:56:41] [Server thread/INFO]: /alchemy: 
+[14:56:41] [Server thread/INFO]: /antioch: A little surprise for operators.
+[14:56:41] [Server thread/INFO]: /anvil: Opens up an anvil.
+[14:56:41] [Server thread/INFO]: /archery: 
+[14:56:41] [Server thread/INFO]: /attribute: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /autostop: Manages autostop.
+[14:56:41] [Server thread/INFO]: /back: Teleports you to your location prior to tp/spawn/warp.
+[14:56:41] [Server thread/INFO]: /backup: Runs the backup if configured.
+[14:56:41] [Server thread/INFO]: /balance: States the current balance of a player.
+[14:56:41] [Server thread/INFO]: /balancetop: Gets the top balance values.
+[14:56:41] [Server thread/INFO]: /ban: Bans a player.
+[14:56:41] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /banip: Bans an IP address.
+[14:56:41] [Server thread/INFO]: /banlist: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /beezooka: Throw an exploding bee at your opponent.
+[14:56:41] [Server thread/INFO]: /bigtree: Spawn a big tree where you are looking.
+[14:56:41] [Server thread/INFO]: /book: Allows reopening and editing of sealed books.
+[14:56:41] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /bottom: Teleport to the lowest block at your current position.
+[14:56:41] [Server thread/INFO]: /break: Breaks the block you are looking at.
+[14:56:41] [Server thread/INFO]: /broadcast: Broadcasts a message to the entire server.
+[14:56:41] [Server thread/INFO]: /broadcastworld: Broadcasts a message to a world.
+[14:56:41] [Server thread/INFO]: /bukkit:about: Gets the version of this server including any plugins in use
+[14:56:41] [Server thread/INFO]: /bukkit:help: Shows the help menu
+[14:56:41] [Server thread/INFO]: /bukkit:pl: Gets a list of plugins running on the server
+[14:56:41] [Server thread/INFO]: /bukkit:plugins: Gets a list of plugins running on the server
+[14:56:41] [Server thread/INFO]: /bukkit:ver: Gets the version of this server including any plugins in use
+[14:56:41] [Server thread/INFO]: /bukkit:version: Gets the version of this server including any plugins in use
+[14:56:41] [Server thread/INFO]: /burn: Set a player on fire.
+[14:56:41] [Server thread/INFO]: /cartographytable: Opens up a cartography table.
+[14:56:41] [Server thread/INFO]: /clearinventory: Clear all items in your inventory.
+[14:56:41] [Server thread/INFO]: /clearinventoryconfirmtoggle: Toggles whether you are prompted to confirm inventory clears.
+[14:56:41] [Server thread/INFO]: /clone: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /compass: Describes your current bearing.
+[14:56:41] [Server thread/INFO]: /condense: Condenses items into a more compact blocks.
+[14:56:41] [Server thread/INFO]: /createkit: Create a kit in game!
+[14:56:41] [Server thread/INFO]: /customitem: Gives a specific custom item to the player.
+[14:56:41] [Server thread/INFO]: /customtext: Allows you to create custom text commands.
+[14:56:41] [Server thread/INFO]: /damage: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /data: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /datapack: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /debug: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /defense: 
+[14:56:41] [Server thread/INFO]: /delhome: Removes a home.
+[14:56:41] [Server thread/INFO]: /deljail: Removes a jail.
+[14:56:41] [Server thread/INFO]: /delkit: Deletes the specified kit.
+[14:56:41] [Server thread/INFO]: /delwarp: Deletes the specified warp.
+[14:56:41] [Server thread/INFO]: /deop: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /depth: States current depth, relative to sea level.
+[14:56:41] [Server thread/INFO]: /dialog: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /disposal: Opens a portable disposal menu.
+[14:56:41] [Server thread/INFO]: /eco: Manages the server economy.
+[14:56:41] [Server thread/INFO]: /editsign: Edits a sign in the world.
+[14:56:41] [Server thread/INFO]: /effect: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /enchant: Enchants the item the user is holding.
+[14:56:41] [Server thread/INFO]: /enchanting: 
+[14:56:41] [Server thread/INFO]: /enderchest: Lets you see inside an enderchest.
+[14:56:41] [Server thread/INFO]: /essentials: Reloads essentials.
+[14:56:41] [Server thread/INFO]: /essentials:skull: Set the owner of a player skull
+[14:56:41] [Server thread/INFO]: /excavation: 
+[14:56:41] [Server thread/INFO]: /execute: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /exp: Give, set, reset, or look at a players experience.
+[14:56:41] [Server thread/INFO]: /experience: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /ext: Extinguish players.
+[14:56:41] [Server thread/INFO]: /farming: 
+[14:56:41] [Server thread/INFO]: /feed: Satisfy the hunger.
+[14:56:41] [Server thread/INFO]: /fetchprofile: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /fighting: 
+[14:56:41] [Server thread/INFO]: /fill: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /fillbiome: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /filter: Add or remove programmable filters to the packet listeners.
+[14:56:41] [Server thread/INFO]: /finditem: Searches for the given material in nearby containers and entities.
+[14:56:41] [Server thread/INFO]: /fireball: Throw a fireball or other assorted projectiles.
+[14:56:41] [Server thread/INFO]: /firework: Allows you to modify a stack of fireworks.
+[14:56:41] [Server thread/INFO]: /fishing: 
+[14:56:41] [Server thread/INFO]: /fly: Take off, and soar!
+[14:56:41] [Server thread/INFO]: /foraging: 
+[14:56:41] [Server thread/INFO]: /forceload: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /function: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /gamemode: Change player gamemode.
+[14:56:41] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /gc: Reports memory, uptime and tick info.
+[14:56:41] [Server thread/INFO]: /getpos: Get your current coordinates or those of a player.
+[14:56:41] [Server thread/INFO]: /give: Give a player an item.
+[14:56:41] [Server thread/INFO]: /god: Enables your godly powers.
+[14:56:41] [Server thread/INFO]: /grindstone: Opens up a grindstone.
+[14:56:41] [Server thread/INFO]: /hat: Get some cool new headgear.
+[14:56:41] [Server thread/INFO]: /heads: Get heads from the head library.
+[14:56:41] [Server thread/INFO]: /heal: Heals you or the given player.
+[14:56:41] [Server thread/INFO]: /help: Views a list of available commands.
+[14:56:41] [Server thread/INFO]: /helpop: Message online admins.
+[14:56:41] [Server thread/INFO]: /home: Teleport to your home.
+[14:56:41] [Server thread/INFO]: /ice: Cools a player off.
+[14:56:41] [Server thread/INFO]: /ignore: Ignore or unignore other players.
+[14:56:41] [Server thread/INFO]: /info: Shows information set by the server owner.
+[14:56:41] [Server thread/INFO]: /invsee: See the inventory of other players.
+[14:56:41] [Server thread/INFO]: /item: Spawn an item.
+[14:56:41] [Server thread/INFO]: /itemdb: Searches for an item.
+[14:56:41] [Server thread/INFO]: /itemlore: Edit the lore of an item.
+[14:56:41] [Server thread/INFO]: /itemname: Names an item.
+[14:56:41] [Server thread/INFO]: /jails: List all jails.
+[14:56:41] [Server thread/INFO]: /jfr: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /jump: Jumps to the nearest block in the line of sight.
+[14:56:41] [Server thread/INFO]: /kick: Kicks a specified player with a reason.
+[14:56:41] [Server thread/INFO]: /kickall: Kicks all players off the server except the issuer.
+[14:56:41] [Server thread/INFO]: /kill: Kills specified player.
+[14:56:41] [Server thread/INFO]: /kit: Obtains the specified kit or views all available kits.
+[14:56:41] [Server thread/INFO]: /kitreset: Resets the cooldown on the specified kit.
+[14:56:41] [Server thread/INFO]: /kittycannon: Throw an exploding kitten at your opponent.
+[14:56:41] [Server thread/INFO]: /lightning: The power of Thor. Strike at cursor or player.
+[14:56:41] [Server thread/INFO]: /list: List all online players.
+[14:56:41] [Server thread/INFO]: /locate: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /loom: Opens up a loom.
+[14:56:41] [Server thread/INFO]: /loot: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /mail: Manages inter-player, intra-server mail.
+[14:56:41] [Server thread/INFO]: /mana: Display your or another player's current and max mana
+[14:56:41] [Server thread/INFO]: /me: Describes an action in the context of the player.
+[14:56:41] [Server thread/INFO]: /minecraft:advancement: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:attribute: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:ban: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:ban-ip: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:banlist: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:bossbar: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:clear: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:clone: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:damage: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:data: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:datapack: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:debug: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:defaultgamemode: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:deop: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:dialog: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:difficulty: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:effect: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:enchant: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:execute: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:experience: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:fetchprofile: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:fill: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:fillbiome: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:forceload: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:function: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:gamemode: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:gamerule: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:give: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:item: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:jfr: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:kick: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:list: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:locate: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:loot: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:me: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:msg: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:op: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:pardon: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:pardon-ip: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:particle: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:perf: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:place: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:playsound: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:random: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:recipe: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:return: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:ride: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:rotate: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:save-all: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:save-off: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:save-on: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:say: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:schedule: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:scoreboard: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:seed: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:setblock: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:setidletimeout: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:setworldspawn: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:spawnpoint: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:spectate: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:spreadplayers: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:stop: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:stopsound: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:stopwatch: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:summon: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:tag: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:team: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:teammsg: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:tellraw: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:test: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:tick: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:title: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:tm: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:transfer: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:trigger: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:version: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:w: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:waypoint: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:whitelist: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:worldborder: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /minecraft:xp: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /mining: 
+[14:56:41] [Server thread/INFO]: /more: Fills the item stack in hand to specified amount, or to maximum size if none is specified.
+[14:56:41] [Server thread/INFO]: /motd: Views the Message Of The Day.
+[14:56:41] [Server thread/INFO]: /msg: Sends a private message to the specified player.
+[14:56:41] [Server thread/INFO]: /msgtoggle: Blocks receiving all private messages.
+[14:56:41] [Server thread/INFO]: /mspt: View server tick times
+[14:56:41] [Server thread/INFO]: /mute: Mutes or unmutes a player.
+[14:56:41] [Server thread/INFO]: /near: Lists the players near by or around a player.
+[14:56:41] [Server thread/INFO]: /nick: Change your nickname or that of another player.
+[14:56:41] [Server thread/INFO]: /nuke: May death rain upon them.
+[14:56:41] [Server thread/INFO]: /op: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /packet: Add or remove a simple packet listener.
+[14:56:41] [Server thread/INFO]: /packetlog: Logs hex representations of packets to a file or console
+[14:56:41] [Server thread/INFO]: /paper: Paper related commands
+[14:56:41] [Server thread/INFO]: /paper:spark: 
+[14:56:41] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /particle: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /pay: Pays another player from your balance.
+[14:56:41] [Server thread/INFO]: /payconfirmtoggle: Toggles whether you are prompted to confirm payments.
+[14:56:41] [Server thread/INFO]: /paytoggle: Toggles whether you are accepting payments.
+[14:56:41] [Server thread/INFO]: /perf: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /perm: Manages player permissions.
+[14:56:41] [Server thread/INFO]: /permission: Manages player permissions.
+[14:56:41] [Server thread/INFO]: /ping: Pong!
+[14:56:41] [Server thread/INFO]: /pl: Gets a list of plugins running on the server
+[14:56:41] [Server thread/INFO]: /place: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /playsound: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /playtime: Shows a player's time played in game
+[14:56:41] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[14:56:41] [Server thread/INFO]: /potion: Adds custom potion effects to a potion.
+[14:56:41] [Server thread/INFO]: /powertool: Assigns a command to the item in hand.
+[14:56:41] [Server thread/INFO]: /powertooltoggle: Enables or disables all current powertools.
+[14:56:41] [Server thread/INFO]: /protocol: Performs administrative tasks regarding ProtocolLib.
+[14:56:41] [Server thread/INFO]: /ptime: Adjust player's client time. Add @ prefix to fix.
+[14:56:41] [Server thread/INFO]: /pweather: Adjust a player's weather
+[14:56:41] [Server thread/INFO]: /r: Quickly reply to the last player to message you.
+[14:56:41] [Server thread/INFO]: /random: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /realname: Displays the username of a user based on nick.
+[14:56:41] [Server thread/INFO]: /recipe: Displays how to craft items.
+[14:56:41] [Server thread/INFO]: /region: Open the region management menu.
+[14:56:41] [Server thread/INFO]: /regions: Open the region management menu.
+[14:56:41] [Server thread/INFO]: /reload: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /remove: Removes entities in your world.
+[14:56:41] [Server thread/INFO]: /renamehome: Renames a home.
+[14:56:41] [Server thread/INFO]: /repair: Repairs the durability of one or all items.
+[14:56:41] [Server thread/INFO]: /rest: Rests you or the given player.
+[14:56:41] [Server thread/INFO]: /restart: Restarts the server
+[14:56:41] [Server thread/INFO]: /rg: Open the region management menu.
+[14:56:41] [Server thread/INFO]: /ride: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /rotate: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /rtoggle: Change whether the recipient of the reply is last recipient or last sender
+[14:56:41] [Server thread/INFO]: /rules: Views the server rules.
+[14:56:41] [Server thread/INFO]: /save-all: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /save-off: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /save-on: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /say: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /schedule: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /seed: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /seen: Shows the last logout time of a player.
+[14:56:41] [Server thread/INFO]: /sell: Sells the item currently in your hand.
+[14:56:41] [Server thread/INFO]: /setblock: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /sethome: Set your home to your current location.
+[14:56:41] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /setjail: Creates a jail where you specified named [jailname].
+[14:56:41] [Server thread/INFO]: /setspawn: Sets the spawn point to your current position.
+[14:56:41] [Server thread/INFO]: /settpr: Set the random teleport location and parameters.
+[14:56:41] [Server thread/INFO]: /setwarp: Creates a new warp.
+[14:56:41] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /setworth: Set the sell value of an item.
+[14:56:41] [Server thread/INFO]: /showkit: Show contents of a kit.
+[14:56:41] [Server thread/INFO]: /sk: Opens the Skills menu where you can browse skills, progress, and abilities.
+[14:56:41] [Server thread/INFO]: /skill: Opens the Skills menu where you can browse skills, progress, and abilities.
+[14:56:41] [Server thread/INFO]: /skillrank: Shows your skill rankings.
+[14:56:41] [Server thread/INFO]: /skills: Opens the Skills menu where you can browse skills, progress, and abilities.
+[14:56:41] [Server thread/INFO]: /skilltop: Shows the top players in a skill
+[14:56:41] [Server thread/INFO]: /skin: Changes your own skin.
+[14:56:41] [Server thread/INFO]: /skins: Opens the skins GUI.
+[14:56:41] [Server thread/INFO]: /skull: Gives you a skull.
+[14:56:41] [Server thread/INFO]: /slimechunk: Checks if the current chunk is a slimechunk.
+[14:56:41] [Server thread/INFO]: /smithingtable: Opens up a smithing table.
+[14:56:41] [Server thread/INFO]: /socialspy: Toggles if you can see msg/mail commands in chat.
+[14:56:41] [Server thread/INFO]: /spark: 
+[14:56:41] [Server thread/INFO]: /spawn: Teleports to the spawn point.
+[14:56:41] [Server thread/INFO]: /spawner: Change the mob type of a spawner.
+[14:56:41] [Server thread/INFO]: /spawnmob: Spawns a mob.
+[14:56:41] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /spectate: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /speed: Change your speed limits.
+[14:56:41] [Server thread/INFO]: /spigot: Spigot related commands
+[14:56:41] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /sr: Admin commands for SkinsRestorer.
+[14:56:41] [Server thread/INFO]: /stats: Opens the Stats menu where you can see current stat levels and descriptions.
+[14:56:41] [Server thread/INFO]: /stonecutter: Opens up a stonecutter.
+[14:56:41] [Server thread/INFO]: /stop: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /stopwatch: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /sudo: Make another user perform a command.
+[14:56:41] [Server thread/INFO]: /suicide: Causes you to perish.
+[14:56:41] [Server thread/INFO]: /summon: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /tag: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /team: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /tempban: Temporary ban a user.
+[14:56:41] [Server thread/INFO]: /tempbanip: Temporarily ban an IP Address.
+[14:56:41] [Server thread/INFO]: /test: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /thunder: Enable/disable thunder.
+[14:56:41] [Server thread/INFO]: /tick: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /time: Display/Change the world time. Defaults to current world.
+[14:56:41] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[14:56:41] [Server thread/INFO]: /title: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /tm: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /togglejail: Jails/Unjails a player, TPs them to the jail specified.
+[14:56:41] [Server thread/INFO]: /toggleshout: Toggles whether you are talking in shout mode
+[14:56:41] [Server thread/INFO]: /top: Teleport to the highest block at your current position.
+[14:56:41] [Server thread/INFO]: /tp: Teleport to a player.
+[14:56:41] [Server thread/INFO]: /tpa: Request to teleport to the specified player.
+[14:56:41] [Server thread/INFO]: /tpaall: Requests all players online to teleport to you.
+[14:56:41] [Server thread/INFO]: /tpacancel: Cancel all outstanding teleport requests. Specify [player] to cancel requests with them.
+[14:56:41] [Server thread/INFO]: /tpaccept: Accepts teleport requests.
+[14:56:41] [Server thread/INFO]: /tpahere: Request that the specified player teleport to you.
+[14:56:41] [Server thread/INFO]: /tpall: Teleport all online players to another player.
+[14:56:41] [Server thread/INFO]: /tpauto: Automatically accept teleportation requests.
+[14:56:41] [Server thread/INFO]: /tpdeny: Rejects teleport requests.
+[14:56:41] [Server thread/INFO]: /tphere: Teleport a player to you.
+[14:56:41] [Server thread/INFO]: /tpo: Teleport override for tptoggle.
+[14:56:41] [Server thread/INFO]: /tpoffline: Teleport to a player's last known logout location
+[14:56:41] [Server thread/INFO]: /tpohere: Teleport here override for tptoggle.
+[14:56:41] [Server thread/INFO]: /tppos: Teleport to coordinates.
+[14:56:41] [Server thread/INFO]: /tpr: Teleport randomly.
+[14:56:41] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[14:56:41] [Server thread/INFO]: /tptoggle: Blocks all forms of teleportation.
+[14:56:41] [Server thread/INFO]: /transfer: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /tree: Spawn a tree where you are looking.
+[14:56:41] [Server thread/INFO]: /trigger: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /unban: Unbans the specified player.
+[14:56:41] [Server thread/INFO]: /unbanip: Unbans the specified IP address.
+[14:56:41] [Server thread/INFO]: /unlimited: Allows the unlimited placing of items.
+[14:56:41] [Server thread/INFO]: /vane: Manages vane plugins.
+[14:56:41] [Server thread/INFO]: /vane-admin:autostop: Manages autostop.
+[14:56:41] [Server thread/INFO]: /vane-admin:gamemode: gamemode [player]
+[14:56:41] [Server thread/INFO]: /vane-admin:gm: gamemode [player]
+[14:56:41] [Server thread/INFO]: /vane-admin:slimechunk: Checks if the current chunk is a slimechunk.
+[14:56:41] [Server thread/INFO]: /vane-admin:time: Sets the time of the current or given world.
+[14:56:41] [Server thread/INFO]: /vane-admin:weather: Sets the weather of the current or given world.
+[14:56:41] [Server thread/INFO]: /vane-core:customitem: Gives a specific custom item to the player.
+[14:56:41] [Server thread/INFO]: /vane-core:enchant: Enchants the item in your hand.
+[14:56:41] [Server thread/INFO]: /vane-core:vane: Manages vane plugins.
+[14:56:41] [Server thread/INFO]: /vane-permissions:perm: Manages player permissions.
+[14:56:41] [Server thread/INFO]: /vane-permissions:permission: Manages player permissions.
+[14:56:41] [Server thread/INFO]: /vane-permissions:vouch: Vouches for a player.
+[14:56:41] [Server thread/INFO]: /vane-regions:region: Open the region management menu.
+[14:56:41] [Server thread/INFO]: /vane-regions:regions: Open the region management menu.
+[14:56:41] [Server thread/INFO]: /vane-regions:rg: Open the region management menu.
+[14:56:41] [Server thread/INFO]: /vane-trifles:finditem: Searches for the given material in nearby containers and entities.
+[14:56:41] [Server thread/INFO]: /vane-trifles:heads: Get heads from the head library.
+[14:56:41] [Server thread/INFO]: /vane-trifles:setspawn: Sets the global spawn location to your current position.
+[14:56:41] [Server thread/INFO]: /vanish: Hide yourself from other players.
+[14:56:41] [Server thread/INFO]: /ver: Gets the version of this server including any plugins in use
+[14:56:41] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[14:56:41] [Server thread/INFO]: /vouch: Vouches for a player.
+[14:56:41] [Server thread/INFO]: /warp: List all warps or warp to the specified location.
+[14:56:41] [Server thread/INFO]: /warpinfo: Finds location information for a specified warp.
+[14:56:41] [Server thread/INFO]: /waypoint: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /weather: Sets the weather.
+[14:56:41] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /whois: Determine basic information about the specified player.
+[14:56:41] [Server thread/INFO]: /workbench: Opens up a workbench.
+[14:56:41] [Server thread/INFO]: /world: Switch between worlds.
+[14:56:41] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[14:56:41] [Server thread/INFO]: /worth: Calculates the worth of items in hand or as specified.
+[14:57:33] [User Authenticator #0/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
+[14:57:33] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials, ProtocolLib]
+[14:57:37] [Server thread/INFO]: [vane-admin] [broadcast] Formera has joined the server
+[14:57:37] [Server thread/INFO]: [vane-admin] Autostop aborted
+[14:57:38] [Server thread/INFO]: Formera[/127.56.142.74:61553] logged in with entity id 1 at ([world]5162.300000011921, 68.0, 1184.300000011921)
+[14:58:14] [User Authenticator #0/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
+[14:58:23] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has joined the server
+[14:58:23] [Server thread/INFO]: Autostop not scheduled
+[14:58:23] [Server thread/INFO]: Arrel7[/127.56.142.74:61400] logged in with entity id 635 at ([world]-342.9376878153122, 82.25521960176278, -352.5463680034417)
+[14:59:06] [Server thread/INFO]: Formera issued server command: /gamemode creative
+[14:59:07] [User Authenticator #0/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
+[14:59:11] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has joined the server
+[14:59:11] [Server thread/INFO]: Autostop not scheduled
+[14:59:11] [Server thread/INFO]: NJEPOh77[/127.43.190.72:54447] logged in with entity id 1039 at ([world]-233.71072384195665, 76.0, -370.9683092616139)
+[14:59:17] [Server thread/WARN]: Arrel7 moved wrongly!
+[14:59:41] [Async Chat Thread - #0/INFO]: [Not Secure] <Formera> hi
+[15:00:00] [Server thread/INFO]: Made Formera no longer a server operator
+[15:00:06] [Async Chat Thread - #0/INFO]: [Not Secure] <Formera> hi
+[15:00:19] [Server thread/INFO]: Made Formera a server operator
+[15:00:31] [Server thread/INFO]: Made Formera no longer a server operator
+[15:00:55] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival Formera
+[15:01:22] [User Authenticator #1/INFO]: UUID of player AiZE_flow is c7a2d222-8d87-345a-8de7-1e3d3a169f64
+[15:01:24] [Server thread/INFO]: [vane-admin] [broadcast] AiZE_flow has joined the server
+[15:01:24] [Server thread/INFO]: Autostop not scheduled
+[15:01:24] [Server thread/INFO]: AiZE_flow[/127.56.142.74:65166] logged in with entity id 3565 at ([world]-212.2816575352181, 69.5, -321.459983399624)
+[15:02:44] [Async Chat Thread - #2/INFO]: [Not Secure] <AiZE_flow> p
+[15:02:49] [Async Chat Thread - #2/INFO]: [Not Secure] <NJEPOh77> p
+[15:03:10] [Server thread/INFO]: NJEPOh77 issued server command: /teleport Formera NJEPOh77
+[15:03:14] [Server thread/WARN]: Arrel7 moved wrongly!
+[15:03:14] [Server thread/WARN]: Arrel7 moved wrongly!
+[15:03:21] [Async Chat Thread - #2/INFO]: [Not Secure] <AiZE_flow> infokan lapangan kerja
+[15:03:27] [Server thread/INFO]: NJEPOh77 issued server command: /teleport Arrel7 NJEPOh77
+[15:03:57] [Server thread/WARN]: Arrel7 moved too quickly! 8.27234120723628,1.7967356006687112,7.3956339163808025
+[15:04:58] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
+[15:04:58] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has left the server
+[15:05:31] [Server thread/INFO]: Arrel7 lost connection: Disconnected
+[15:05:31] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has left the server
+[15:08:01] [Server thread/INFO]: AiZE_flow has made the advancement [We Need to Go Deeper]
+[15:08:48] [Async Chat Thread - #4/INFO]: [Not Secure] <AiZE_flow> ngelag
+[15:09:48] [Server thread/INFO]: AiZE_flow lost connection: Disconnected
+[15:09:48] [Server thread/INFO]: [vane-admin] [broadcast] AiZE_flow has left the server
+[15:14:23] [Server thread/INFO]: Formera issued server command: /skill
+[15:15:26] [Server thread/INFO]: Formera issued server command: /skill
+[15:15:41] [Server thread/INFO]: Formera issued server command: /skill
+[15:15:49] [Server thread/INFO]: Formera issued server command: /skill
+[15:19:08] [Server thread/INFO]: Formera has made the advancement [Cover Me with Diamonds]
+[15:21:14] [Server thread/INFO]: Formera lost connection: Disconnected
+[15:21:14] [Server thread/INFO]: [vane-admin] [broadcast] Formera has left the server
+[15:21:14] [Server thread/INFO]: [vane-admin] Autostop scheduled in 20m
+[15:41:14] [Server thread/INFO]: [vane-admin] Autostop initiated!
+[15:41:14] [Server thread/INFO]: Stopping server
+[15:41:14] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.11
+[15:41:14] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
+[15:41:14] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
+[15:41:14] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.11.0
+[15:41:14] [Server thread/INFO]: [vane-admin] Disabling vane-admin v1.21.1
+[15:41:14] [Server thread/INFO]: [vane-bedtime] Disabling vane-bedtime v1.21.1
+[15:41:14] [Server thread/INFO]: [vane-enchantments] Disabling vane-enchantments v1.21.1
+[15:41:14] [Server thread/INFO]: [vane-permissions] Disabling vane-permissions v1.21.1
+[15:41:14] [Server thread/INFO]: [vane-portals] Disabling vane-portals v1.21.1
+[15:41:14] [Server thread/INFO]: [vane-trifles] Disabling vane-trifles v1.21.1
+[15:41:14] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[15:41:14] [Server thread/INFO]: [vane-regions] Disabling vane-regions v1.21.1
+[15:41:14] [Server thread/INFO]: [vane-core] Disabling vane-core v1.21.1
+[15:41:14] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[15:41:14] [Server thread/INFO]: Saving players
+[15:41:15] [Server thread/INFO]: Saving worlds
+[15:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[15:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[15:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[15:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[15:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:41:15] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[15:41:15] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[15:41:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:41:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
