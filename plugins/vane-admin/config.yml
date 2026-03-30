@@ -21,7 +21,7 @@ metrics_enabled: true
 autostop:
   # Enable automatic server stop after certain time without online players.
   # Default: true
-  enabled: true
+  enabled: false
 
   command_autostop:
     # Enable command autostop

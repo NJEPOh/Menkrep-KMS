@@ -38,6 +38,9 @@ git add .
 git commit -m "%msg%"
 echo "Pushing code to GitHub..."
 git push origin main --force
-echo "Success"
+
+echo ==========================
+echo BACKUP SELESAI WOK!
+echo ==========================
 
 pause
