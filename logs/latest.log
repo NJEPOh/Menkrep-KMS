@@ -1,405 +1,51 @@
-[09:59:34] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.10+8-LTS-217; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[09:59:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
-[09:59:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[09:59:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
-[09:59:36] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (16):
- - vane-admin (1.21.0), vane-admin (1.21.1), vane-bedtime (1.21.0), vane-bedtime (1.21.1), vane-core (1.21.0), vane-core (1.21.1), vane-enchantments (1.21.0), vane-enchantments (1.21.1), vane-permissions (1.21.0), vane-permissions (1.21.1), vane-portals (1.21.0), vane-portals (1.21.1), vane-regions (1.21.0), vane-regions (1.21.1), vane-trifles (1.21.0), vane-trifles (1.21.1)
-[09:59:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - AuraSkills (2.3.11), Essentials (2.21.2), EssentialsChat (2.21.2), EssentialsSpawn (2.21.2), ProtocolLib (5.4.0), SkinsRestorer (15.11.0)
-[09:59:36] [ServerMain/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-enchantments' for files 'plugins\vane-enchantments-1.21.1.jar' and 'plugins\vane-enchantments-1.21.0.jar' in 'plugins'
-[09:59:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[09:59:46] [ServerMain/INFO]: Loaded 1470 recipes
-[09:59:46] [ServerMain/INFO]: Loaded 1584 advancements
-[09:59:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[09:59:47] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 385.3ms
-[09:59:47] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[09:59:47] [Server thread/INFO]: Loading properties
-[09:59:47] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[09:59:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[09:59:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:59:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:59:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
-[09:59:48] [Server thread/INFO]: Default game type: SURVIVAL
-[09:59:48] [Server thread/INFO]: Generating keypair
-[09:59:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:59:48] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[09:59:48] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[09:59:48] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-admin' for files 'plugins\vane-admin-1.21.1.jar' and 'plugins\vane-admin-1.21.0.jar' in 'plugins'
-[09:59:48] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-bedtime' for files 'plugins\vane-bedtime-1.21.1.jar' and 'plugins\vane-bedtime-1.21.0.jar' in 'plugins'
-[09:59:48] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-core' for files 'plugins\vane-core-1.21.1.jar' and 'plugins\vane-core-1.21.0.jar' in 'plugins'
-[09:59:48] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-permissions' for files 'plugins\vane-permissions-1.21.1.jar' and 'plugins\vane-permissions-1.21.0.jar' in 'plugins'
-[09:59:48] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-portals' for files 'plugins\vane-portals-1.21.1.jar' and 'plugins\vane-portals-1.21.0.jar' in 'plugins'
-[09:59:48] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-regions' for files 'plugins\vane-regions-1.21.1.jar' and 'plugins\vane-regions-1.21.0.jar' in 'plugins'
-[09:59:48] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'vane-trifles' for files 'plugins\vane-trifles-1.21.1.jar' and 'plugins\vane-trifles-1.21.0.jar' in 'plugins'
-[09:59:48] [Server thread/INFO]: [vane-core] Loading head library...
-[09:59:49] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[09:59:49] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[09:59:50] [Server thread/INFO]: [vane-core] Loading server plugin vane-core v1.21.1
-[09:59:50] [Server thread/INFO]: [vane-regions] Loading server plugin vane-regions v1.21.1
-[09:59:50] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[09:59:50] [Server thread/INFO]: [vane-trifles] Loading server plugin vane-trifles v1.21.1
-[09:59:50] [Server thread/INFO]: [vane-portals] Loading server plugin vane-portals v1.21.1
-[09:59:50] [Server thread/INFO]: [vane-permissions] Loading server plugin vane-permissions v1.21.1
-[09:59:50] [Server thread/INFO]: [vane-enchantments] Loading server plugin vane-enchantments v1.21.1
-[09:59:50] [Server thread/INFO]: [vane-bedtime] Loading server plugin vane-bedtime v1.21.1
-[09:59:50] [Server thread/INFO]: [vane-admin] Loading server plugin vane-admin v1.21.1
-[09:59:50] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.11.0
-[09:59:50] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
-[09:59:50] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
-[09:59:50] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.11
-[09:59:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:59:50] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[09:59:50] [Server thread/INFO]: [vane-core] Enabling vane-core v1.21.1
-[09:59:50] [Server thread/INFO]: [vane-core] Serving official vane resource pack
-[09:59:50] [Server thread/INFO]: [vane-core] Distributing resource pack from 'https://oddlama.github.io/vane/resourcepacks/v1.21.1.zip' with sha1 033e3cdf7e78a1c68acd7c2eef48678c663ed44f
-[09:59:50] [Server thread/INFO]: [vane-regions] Enabling vane-regions v1.21.1
-[09:59:50] [Server thread/INFO]: [vane-trifles] Enabling vane-trifles v1.21.1
-[09:59:51] [Server thread/INFO]: [vane-portals] Enabling vane-portals v1.21.1
-[09:59:51] [Server thread/INFO]: [vane-permissions] Enabling vane-permissions v1.21.1
-[09:59:51] [Server thread/INFO]: [vane-enchantments] Enabling vane-enchantments v1.21.1
-[09:59:51] [Server thread/INFO]: [vane-bedtime] Enabling vane-bedtime v1.21.1
-[09:59:51] [Server thread/INFO]: [vane-admin] Enabling vane-admin v1.21.1
-[09:59:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.11.0
-[09:59:52] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
-[09:59:53] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[09:59:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:59:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:59:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:59:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:59:53] [Server thread/INFO]: Preparing level "world"
-[09:59:53] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
- If this message is repeated a lot, please see https://skinsrestorer.net/firewall
-[09:59:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[09:59:54] [Server thread/INFO]: Preparing spawn area: 100%
-[09:59:54] [Server thread/INFO]: Prepared spawn area in 7 ms
-[09:59:54] [Server thread/INFO]: [vane-regions] Loaded 0 regions for world world(0f5e378c-28ef-497c-942e-bef9a2a5c10d)
-[09:59:54] [Server thread/INFO]: [vane-portals] Loaded 0 portals for world world(0f5e378c-28ef-497c-942e-bef9a2a5c10d)
-[09:59:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[09:59:54] [Server thread/INFO]: Prepared spawn area in 5 ms
-[09:59:54] [Server thread/INFO]: [vane-regions] Loaded 0 regions for world world_nether(e1b78399-dfc5-48d7-b995-c68793f6fd42)
-[09:59:54] [Server thread/INFO]: [vane-portals] Loaded 0 portals for world world_nether(e1b78399-dfc5-48d7-b995-c68793f6fd42)
-[09:59:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[09:59:55] [Server thread/INFO]: Prepared spawn area in 14 ms
-[09:59:55] [Server thread/INFO]: [vane-regions] Loaded 0 regions for world world_the_end(a02f1b72-3b25-488b-9dc0-99de4c7f75f9)
-[09:59:55] [Server thread/INFO]: [vane-portals] Loaded 0 portals for world world_the_end(a02f1b72-3b25-488b-9dc0-99de4c7f75f9)
-[09:59:55] [Server thread/INFO]: Done preparing level "world" (1.353s)
-[09:59:55] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[09:59:55] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[09:59:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[09:59:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[09:59:56] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[09:59:56] [Server thread/INFO]: [Essentials] Using locale en_ID
-[09:59:56] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[09:59:56] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[09:59:56] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[09:59:56] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
-[09:59:56] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[09:59:56] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
-[09:59:56] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[09:59:56] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.11
-[09:59:58] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[09:59:59] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
-[09:59:59] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 34 ms
-[09:59:59] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[09:59:59] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[09:59:59] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[09:59:59] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[09:59:59] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[10:00:00] [Server thread/INFO]: [spark] Starting background profiler...
-[10:00:00] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[10:00:01] [Server thread/INFO]: Running delayed init tasks
-[10:00:01] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[10:00:01] [Server thread/WARN]: [vane-core] Could not check for updates: java.io.IOException: Server returned HTTP response code: 403 for URL: https://api.github.com/repos/oddlama/vane/releases/latest
-[10:00:02] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 327 total sources
-[10:00:02] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[10:00:02] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[10:00:02] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[10:00:03] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10:00:03] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[10:00:03] [Server thread/INFO]: Done (30.234s)! For help, type "help"
-[10:00:03] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Unable to check your version! Self-built? Build information: id:'2.21.2' branch:'2.x' isDev:false.
-[10:00:27] [User Authenticator #0/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
-[10:00:27] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials, ProtocolLib]
-[10:00:33] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has joined the server
-[10:00:33] [Server thread/INFO]: NJEPOh77[/127.56.142.74:65040] logged in with entity id 1 at ([world]-255.01514101673834, 71.0, -210.69999998807907)
-[10:03:18] [User Authenticator #1/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[10:03:28] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[10:03:32] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has joined the server
-[10:03:32] [Server thread/INFO]: Arrel7[/127.56.142.74:62053] logged in with entity id 894 at ([world]-162.23655085091158, 80.0, -294.473952305385)
-[10:04:24] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
-[10:12:00] [Server thread/WARN]: Arrel7 moved wrongly!
-[10:13:59] [Server thread/WARN]: Arrel7 moved wrongly!
-[10:19:09] [Server thread/WARN]: Arrel7 moved wrongly!
-[10:22:45] [Server thread/INFO]: NJEPOh77 has made the advancement [Hidden in the Depths]
-[10:23:28] [Server thread/INFO]: Arrel7 has made the advancement [Hidden in the Depths]
-[10:25:50] [User Authenticator #2/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
-[10:25:56] [Server thread/INFO]: [vane-admin] [broadcast] Formera has joined the server
-[10:25:56] [Server thread/INFO]: Formera[/127.56.142.74:59321] logged in with entity id 5075 at ([world]-257.72574029804997, 49.0, -159.30939562831227)
-[10:27:05] [Server thread/INFO]: NJEPOh77 issued server command: /teleport Formera NJEPOh77
-[10:28:46] [Server thread/INFO]: Formera lost connection: Disconnected
-[10:28:46] [Server thread/INFO]: [vane-admin] [broadcast] Formera has left the server
-[10:31:08] [User Authenticator #3/INFO]: UUID of player Formera is 9a2427bd-d3c0-3440-a9e2-495001035bc9
-[10:31:14] [Server thread/INFO]: [vane-admin] [broadcast] Formera has joined the server
-[10:31:14] [Server thread/INFO]: Formera[/127.56.142.74:56293] logged in with entity id 6443 at ([world_nether]35.6689476052065, 28.0, -99.72835652879733)
-[10:40:49] [Server thread/INFO]: Formera has made the advancement [Hidden in the Depths]
-[10:57:36] [Server thread/INFO]: Formera burned to death
-[10:57:47] [Server thread/INFO]: Formera lost connection: Disconnected
-[10:57:47] [Server thread/INFO]: [vane-admin] [broadcast] Formera has left the server
-[11:10:54] [Folia Async Scheduler Thread #9/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
- If this message is repeated a lot, please see https://skinsrestorer.net/firewall
-[11:14:17] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:23] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:23] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:25] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:25] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:25] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:25] [Server thread/WARN]: Arrel7 moved too quickly! -28.5593315105684,4.0,45.59179962148373
-[11:14:25] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:25] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:26] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:26] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:48] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:49] [Server thread/WARN]: Arrel7 moved too quickly! 12.181142342287195,13.921599998474122,12.605166899877261
-[11:14:49] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:14:55] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:15:19] [Server thread/INFO]: NJEPOh77 issued server command: /teleport NJEPOh77 Arrel7
-[11:16:33] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:16:36] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:16:36] [Server thread/WARN]: Arrel7 moved wrongly!
-[11:17:10] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
-[11:17:10] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has left the server
-[11:18:37] [Server thread/WARN]: Arrel7 moved wrongly!
-[12:50:41] [Server thread/INFO]: Arrel7 issued server command: /skill
-[13:27:28] [User Authenticator #4/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
-[13:27:33] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has joined the server
-[13:27:33] [Server thread/INFO]: NJEPOh77[/127.56.142.74:60502] logged in with entity id 40735 at ([world]-156.62602273528006, 71.0, -296.0705262656216)
-[13:28:52] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[13:29:33] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:30:52] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode s
-[13:30:57] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
-[13:31:37] [Server thread/WARN]: Arrel7 was kicked for floating too long!
-[13:31:37] [Server thread/INFO]: Arrel7 lost connection: Flying is not enabled on this server
-[13:31:37] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 was kicked from the server
-[13:31:58] [User Authenticator #5/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[13:32:08] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has joined the server
-[13:32:08] [Server thread/INFO]: Arrel7[/127.56.142.74:60514] logged in with entity id 41477 at ([world]-166.75295369108463, 71.11274447482063, -318.54084190413244)
-[13:36:48] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[13:37:24] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
-[13:38:03] [Server thread/INFO]: Arrel7 lost connection: Disconnected
-[13:38:03] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has left the server
-[13:38:03] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
-[13:38:03] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has left the server
-[13:38:22] [User Authenticator #6/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[13:38:30] [Server thread/INFO]: Arrel7 (/127.56.142.74:63128) lost connection: Disconnected
-[13:39:10] [User Authenticator #6/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[13:39:15] [Server thread/INFO]: Arrel7 (1e5120ff-e7b8-30a3-be28-5d07bbae9fe5) lost connection: Disconnected
-[13:39:46] [User Authenticator #6/INFO]: UUID of player NJEPOh77 is 5ee23a5e-e93a-3f07-8414-d8f9d80d652b
-[13:39:50] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has joined the server
-[13:39:50] [Server thread/INFO]: NJEPOh77[/127.56.142.74:54512] logged in with entity id 42946 at ([world]-293.80432488255127, 73.0, -388.21404951737827)
-[13:39:51] [User Authenticator #6/INFO]: UUID of player Arrel7 is 1e5120ff-e7b8-30a3-be28-5d07bbae9fe5
-[13:39:59] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has joined the server
-[13:39:59] [Server thread/INFO]: Arrel7[/127.56.142.74:54515] logged in with entity id 43068 at ([world]-174.69999998807907, 80.0, -294.6235198020066)
-[13:41:12] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:41:12] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:41:58] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:41:58] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:42:03] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:42:04] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:42:05] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:42:05] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:42:05] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:42:08] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:42:56] [Server thread/INFO]: Arrel7 has made the advancement [Hot Stuff]
-[13:43:20] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:45:14] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:01] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:01] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:01] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:02] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:03] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:03] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:48] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:50] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:52] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:49:52] [Server thread/WARN]: Arrel7 moved wrongly!
-[13:56:59] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[14:00:09] [Server thread/WARN]: [vane-core] Could not check for updates: java.io.IOException: Server returned HTTP response code: 403 for URL: https://api.github.com/repos/oddlama/vane/releases/latest
-[14:04:04] [Server thread/INFO]: Villager Villager['Cleric'/42948, uuid='fd6669e7-6680-4ead-97e5-90ca207ce59c', l='ServerLevel[world]', x=-258.55, y=78.00, z=-358.39, cpos=[-17, -23], tl=29053, v=true] died, message: 'Cleric was burned to a crisp while fighting Arrel7'
-[14:06:12] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:12] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:12] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:12] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:12] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:13] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:13] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:13] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:14] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:14] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:33] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:33] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:33] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:34] [Server thread/WARN]: Arrel7 moved too quickly! -14.397138487922149,-10.248135998590946,10.682677153512117
-[14:06:34] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:35] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:35] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:35] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:35] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:35] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:35] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:35] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:35] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:35] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:36] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:36] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:06:39] [Server thread/WARN]: Arrel7 moved too quickly! -49.582535614650595,-16.819630447162666,3.5061380838754133
-[14:06:39] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:09:29] [Server thread/WARN]: Arrel7 moved too quickly! 13.421076842863215,1.027475316958828,-27.47143535844357
-[14:09:29] [Server thread/WARN]: Arrel7 moved too quickly! 13.421076842863215,2.0544753167204064,-27.47143535844357
-[14:10:06] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:10:06] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:10:08] [Server thread/WARN]: Arrel7 moved too quickly! -2.2732069593881192,6.6967964922634025,-28.951202385922016
-[14:10:11] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:10:11] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:10:22] [Server thread/INFO]: Arrel7 issued server command: /skills
-[14:12:18] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:12:18] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:13:01] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:13:03] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:13:04] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:13:04] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:13:43] [Server thread/INFO]: NJEPOh77 issued server command: /difficulty hard
-[14:13:43] [Server thread/INFO]: [NJEPOh77: The difficulty has been set to Hard]
-[14:14:01] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode survival
-[14:19:21] [Server thread/INFO]: Villager Villager['Librarian'/43043, uuid='6ab35fca-3495-41a7-92e6-397e848fed48', l='ServerLevel[world]', x=-230.30, y=76.00, z=-382.70, cpos=[-15, -24], tl=47380, v=true] died, message: 'Librarian was shot by Pillager'
-[14:21:04] [Server thread/INFO]: Villager Villager['Fisherman'/43019, uuid='92e3758c-7e27-4a77-a224-44551b438435', l='ServerLevel[world]', x=-283.48, y=81.00, z=-318.40, cpos=[-18, -20], tl=49463, v=true] died, message: 'Fisherman was slain by Vindicator'
-[14:21:15] [Server thread/INFO]: NJEPOh77 has reached the goal [Postmortal]
-[14:21:27] [Server thread/INFO]: Villager Villager['Cleric'/42949, uuid='e8a379c4-431c-41de-a790-82cbfed62d69', l='ServerLevel[world]', x=-330.03, y=79.19, z=-360.33, cpos=[-21, -23], tl=49711, v=true] died, message: 'Cleric was slain by Vindicator'
-[14:21:31] [Server thread/INFO]: Villager Villager['Weaponsmith'/42986, uuid='32ed44e3-49ec-45d5-97ad-61fd236b6fb3', l='ServerLevel[world]', x=-330.03, y=79.19, z=-360.33, cpos=[-21, -23], tl=49997, v=true] died, message: 'Weaponsmith was slain by Vindicator'
-[14:25:44] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:25:44] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:41:49] [Server thread/WARN]: Arrel7 moved too quickly! 23.688027973155386,-0.4385959635332739,3.962948520188661
-[14:43:53] [Folia Async Scheduler Thread #9/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
- If this message is repeated a lot, please see https://skinsrestorer.net/firewall
-[14:51:31] [Server thread/INFO]: NJEPOh77 issued server command: /gamemode creative
-[14:51:48] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:51:48] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:51:48] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:51:48] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:51:48] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:51:48] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:51:48] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:51:49] [Server thread/WARN]: Arrel7 moved too quickly! 15.815672260431384,3.9970440636636084,20.877660612716
-[14:51:49] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:54:04] [User Authenticator #7/INFO]: UUID of player Starkz is a1c1e0b6-5ffd-3666-b7ee-4f2545e4db8a
-[14:54:07] [Server thread/INFO]: [vane-admin] [broadcast] Starkz has joined the server
-[14:54:07] [Server thread/INFO]: Starkz[/127.56.142.74:65149] logged in with entity id 60966 at ([world]4876.3671795538685, 196.0, 1371.3642984452572)
-[14:54:21] [Async Chat Thread - #1/INFO]: [Not Secure] <NJEPOh77> kelas b wis rampung rung kelas e
-[14:54:36] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:54:36] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:54:36] [Server thread/WARN]: Arrel7 moved wrongly!
-[14:55:05] [Server thread/INFO]: Arrel7 issued server command: /skills
-[14:55:13] [Async Chat Thread - #1/INFO]: [Not Secure] <Starkz> zoom pak yus jam 3
-[14:55:29] [Async Chat Thread - #1/INFO]: [Not Secure] <NJEPOh77> sini mulmed
-[15:00:38] [Server thread/INFO]: Starkz fell from a high place
-[15:00:44] [Async Chat Thread - #2/INFO]: [Not Secure] <NJEPOh77> aowwkokwow
-[15:01:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Starkz> pler
-[15:04:56] [Server thread/WARN]: Arrel7 moved wrongly!
-[15:04:59] [Server thread/WARN]: Arrel7 moved wrongly!
-[15:05:37] [Async Chat Thread - #4/INFO]: [Not Secure] <Starkz> turu banh, aku lgi diluar ga bawa bed
-[15:06:09] [Async Chat Thread - #4/INFO]: [Not Secure] <NJEPOh77> done
-[15:06:17] [Async Chat Thread - #4/INFO]: [Not Secure] <Starkz> sankyuu
-[15:10:32] [Async Chat Thread - #6/INFO]: [Not Secure] <Starkz> ni napa tiba-tiba ada agility
-[15:10:44] [Async Chat Thread - #6/INFO]: [Not Secure] <Arrel7> mod nya admin
-[15:10:45] [Async Chat Thread - #6/INFO]: [Not Secure] <NJEPOh77> plugin baru
-[15:10:57] [Async Chat Thread - #7/INFO]: [Not Secure] <Arrel7> coba kau /skills
-[15:12:16] [Server thread/WARN]: Arrel7 moved wrongly!
-[15:12:16] [Server thread/WARN]: Arrel7 moved wrongly!
-[15:13:22] [Async Chat Thread - #8/INFO]: [Not Secure] <NJEPOh77> kelas b dah pulang semua kah ?
-[15:14:50] [Server thread/WARN]: Arrel7 moved wrongly!
-[15:15:03] [Server thread/WARN]: Arrel7 moved wrongly!
-[15:15:03] [Server thread/WARN]: Arrel7 moved wrongly!
-[15:16:13] [Server thread/INFO]: Starkz lost connection: Disconnected
-[15:16:13] [Server thread/INFO]: [vane-admin] [broadcast] Starkz has left the server
-[15:20:21] [Server thread/INFO]: NJEPOh77 lost connection: Disconnected
-[15:20:21] [Server thread/INFO]: [vane-admin] [broadcast] NJEPOh77 has left the server
-[15:21:06] [Server thread/INFO]: Arrel7 lost connection: Disconnected
-[15:21:06] [Server thread/INFO]: [vane-admin] [broadcast] Arrel7 has left the server
-[15:21:43] [Server thread/INFO]: Stopping the server
-[15:21:43] [Server thread/INFO]: Stopping server
-[15:21:43] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.11
-[15:21:43] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
-[15:21:43] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
-[15:21:43] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.11.0
-[15:21:43] [Server thread/INFO]: [vane-admin] Disabling vane-admin v1.21.1
-[15:21:43] [Server thread/INFO]: [vane-bedtime] Disabling vane-bedtime v1.21.1
-[15:21:43] [Server thread/INFO]: [vane-enchantments] Disabling vane-enchantments v1.21.1
-[15:21:43] [Server thread/INFO]: [vane-permissions] Disabling vane-permissions v1.21.1
-[15:21:43] [Server thread/INFO]: [vane-portals] Disabling vane-portals v1.21.1
-[15:21:43] [Server thread/INFO]: [vane-trifles] Disabling vane-trifles v1.21.1
-[15:21:43] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[15:21:43] [Server thread/INFO]: [vane-regions] Disabling vane-regions v1.21.1
-[15:21:43] [Server thread/INFO]: [vane-core] Disabling vane-core v1.21.1
-[15:21:43] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[15:21:43] [Server thread/INFO]: Saving players
-[15:21:43] [Server thread/INFO]: Saving worlds
-[15:21:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[15:21:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[15:21:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[15:21:43] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[15:21:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:21:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:21:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:21:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:21:43] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[15:21:43] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[15:21:43] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[15:21:43] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:09:12] [Server thread/INFO]: Starkz fell from a high place
+[00:24:19] [Server thread/INFO]: Starkz fell off a ladder
+[00:58:00] [Server thread/INFO]: Starkz lost connection: Disconnected
+[00:58:00] [Server thread/INFO]: [vane-admin] [broadcast] Starkz has left the server
+[04:56:10] [Server thread/INFO]: Stopping the server
+[04:56:10] [Server thread/INFO]: Stopping server
+[04:56:10] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.11
+[04:56:10] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
+[04:56:10] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2
+[04:56:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.11.1
+[04:56:10] [Server thread/INFO]: [vane-admin] Disabling vane-admin v1.21.1
+[04:56:10] [Server thread/INFO]: [vane-bedtime] Disabling vane-bedtime v1.21.1
+[04:56:10] [Server thread/INFO]: [vane-enchantments] Disabling vane-enchantments v1.21.1
+[04:56:10] [Server thread/INFO]: [vane-permissions] Disabling vane-permissions v1.21.1
+[04:56:10] [Server thread/INFO]: [vane-portals] Disabling vane-portals v1.21.1
+[04:56:10] [Server thread/INFO]: [vane-trifles] Disabling vane-trifles v1.21.1
+[04:56:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[04:56:10] [Server thread/INFO]: [vane-regions] Disabling vane-regions v1.21.1
+[04:56:10] [Server thread/INFO]: [vane-core] Disabling vane-core v1.21.1
+[04:56:10] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[04:56:10] [Server thread/INFO]: Saving players
+[04:56:10] [Server thread/INFO]: Saving worlds
+[04:56:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[04:56:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[04:56:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[04:56:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[04:56:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:56:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:56:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:56:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:56:10] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[04:56:10] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[04:56:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:56:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
