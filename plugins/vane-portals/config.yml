@@ -41,11 +41,11 @@ area_max_width: 24
 
 # Materials which may not be used to decorate portals.
 # Default:
-#   - "minecraft:sticky_piston"
 #   - "minecraft:piston"
+#   - "minecraft:sticky_piston"
 blacklisted_materials:
-  - "minecraft:sticky_piston"
   - "minecraft:piston"
+  - "minecraft:sticky_piston"
 
 blue_map:
   # Enable BlueMap integration to show public portals.
