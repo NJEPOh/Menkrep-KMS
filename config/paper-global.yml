@@ -130,7 +130,7 @@ spark:
   enable-immediately: false
   enabled: true
 unsupported-settings:
-  allow-headless-pistons: false
+  allow-headless-pistons: true
   allow-permanent-block-break-exploits: false
   allow-piston-duplication: false
   allow-unsafe-end-portal-teleportation: false
