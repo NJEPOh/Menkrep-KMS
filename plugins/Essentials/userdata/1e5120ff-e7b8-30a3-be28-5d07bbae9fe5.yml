@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.95.136.93
+ip-address: 127.65.5.53
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1775231368501
-  login: 1775231314745
+  logout: 1775317029055
+  login: 1775304515217
 money: '0'
 last-account-name: Arrel7
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: e1b78399-dfc5-48d7-b995-c68793f6fd42
   world-name: world_nether
-  x: 615.515220473562
+  x: 604.9045794296175
   y: 132.0
-  z: 129.4144451612578
-  yaw: -33.685794830322266
-  pitch: 17.999826431274414
+  z: 137.73094448133315
+  yaw: 19.24981689453125
+  pitch: 58.049983978271484
