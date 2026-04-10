@@ -5,39 +5,45 @@ skills:
     xp: 806.4000000000007
   auraskills/fighting:
     level: 10
-    xp: 4374.399999999784
+    xp: 4499.1999999997815
   auraskills/mining:
     level: 14
-    xp: 7808.20999999975
+    xp: 11933.499999999516
   auraskills/defense:
     level: 6
-    xp: 823.0591468095848
+    xp: 1209.698104596143
   auraskills/fishing:
     level: 0
     xp: 0.0
   auraskills/archery:
     level: 3
-    xp: 237.59999999999948
+    xp: 309.09999999999945
   auraskills/agility:
     level: 6
-    xp: 1119.1736600000002
+    xp: 1670.78846
   auraskills/enchanting:
     level: 7
     xp: 4596.4
   auraskills/foraging:
     level: 2
-    xp: 176.4799999999998
+    xp: 176.9199999999998
   auraskills/excavation:
     level: 2
-    xp: 447.98999999999654
+    xp: 470.42999999999574
   auraskills/alchemy:
     level: 0
     xp: 90.0
 mana: 40.0
 action_bar:
   idle: true
+stat_modifiers:
+  '0':
+    name: AbilityModifier-EnchantedStrength
+    stat: auraskills/strength
+    operation: ADD
+    value: 2.5
 ability_data:
   auraskills/first_strike:
-    counter: 182
+    counter: 189
   auraskills/xp_convert:
-    xp: 28.194806828655043
+    xp: 0.9185646152149864
