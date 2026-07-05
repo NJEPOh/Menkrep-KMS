@@ -11,7 +11,7 @@ skills:
     xp: 67.0
   auraskills/fighting:
     level: 7
-    xp: 3445.900000000013
+    xp: 3545.5000000000136
   auraskills/foraging:
     level: 3
     xp: 699.9999999999998
@@ -20,7 +20,7 @@ skills:
     xp: 418.1250000000007
   auraskills/agility:
     level: 7
-    xp: 3151.852539999995
+    xp: 3156.892539999995
   auraskills/alchemy:
     level: 5
     xp: 872.0
@@ -41,9 +41,9 @@ stat_modifiers:
     name: AbilityModifier-EnchantedStrength
     stat: auraskills/strength
     operation: ADD
-    value: 4.0
+    value: 7.0
 ability_data:
   auraskills/xp_convert:
-    xp: 12.542799697983485
+    xp: 28.682799697983484
   auraskills/first_strike:
-    counter: 69
+    counter: 70
